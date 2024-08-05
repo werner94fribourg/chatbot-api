@@ -9,5 +9,8 @@
     "strict": true,
     "useUnknownInCatchVariables": false,
     "skipLibCheck": true
+  },
+  "ts-node": {
+    "swc": true
   }
 }
