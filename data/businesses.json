@@ -1,1286 +1,1502 @@
 [
   {
-    "name": "Sunshine Cafe",
+    "id": 1,
+    "name": "Sunrise Cafe",
     "type": "Cafe",
     "address": {
-      "street": "Les Rosenières 170a",
-      "postalCode": "2746",
-      "state": "Bern",
-      "country": "Switzerland"
+      "street": "Route de Meyrin 28c",
+      "postalCode": "1211",
+      "city": "Geneva",
+      "state": "Geneva",
+      "country": "Switzerland",
+      "coordinates": [46.2160126, 6.125234086873063]
     },
-    "openingHour": "08:00 AM",
-    "closingHour": "06:00 PM"
+    "openingHour": "08:00",
+    "closingHour": "18:00"
   },
   {
-    "name": "Green Valley Grocery",
-    "type": "Grocery",
+    "id": 2,
+    "name": "Mountain Gear",
+    "type": "Sports Equipment",
     "address": {
-      "street": "Fernglen Road 22",
-      "postalCode": "9423",
-      "state": "Schaffhausen",
-      "country": "Switzerland"
+      "street": "Route Des Montagnes 2.6",
+      "postalCode": "1273",
+      "city": "Arzier-Le Muids",
+      "state": "Vaud",
+      "country": "Switzerland",
+      "coordinates": [46.504104, 6.152856]
     },
-    "openingHour": "09:00 AM",
-    "closingHour": "05:00 PM"
+    "openingHour": "09:00",
+    "closingHour": "17:00"
   },
   {
-    "name": "QuickFix Car Service",
-    "type": "Car Service",
+    "id": 3,
+    "name": "Greifensee Flowers",
+    "type": "Florist",
     "address": {
-      "street": "Hillcrest Ave 495",
-      "postalCode": "8301",
+      "street": "Schützenweg 2",
+      "postalCode": "8606",
+      "city": "Greifensee",
       "state": "Zurich",
-      "country": "Switzerland"
+      "country": "Switzerland",
+      "coordinates": [47.359337, 8.685699]
     },
-    "openingHour": "08:30 AM",
-    "closingHour": "05:30 PM"
+    "openingHour": "10:00",
+    "closingHour": "18:00"
   },
   {
-    "name": "Golden Gate Bookstore",
+    "id": 4,
+    "name": "Alpine Books",
     "type": "Bookstore",
     "address": {
-      "street": "Main Street 115a",
-      "postalCode": "7500",
-      "state": "Graubünden",
-      "country": "Switzerland"
-    },
-    "openingHour": "10:00 AM",
-    "closingHour": "06:00 PM"
-  },
-  {
-    "name": "Urban Chic Boutique",
-    "type": "Clothing Store",
-    "address": {
-      "street": "Lindenstrasse 302",
-      "postalCode": "4001",
-      "state": "Basel-City",
-      "country": "Switzerland"
-    },
-    "openingHour": "11:00 AM",
-    "closingHour": "06:00 PM"
-  },
-  {
-    "name": "Tech World Electronics",
-    "type": "Electronics",
-    "address": {
-      "street": "Bahnhofstrasse 11b",
-      "postalCode": "8001",
-      "state": "Zurich",
-      "country": "Switzerland"
-    },
-    "openingHour": "08:00 AM",
-    "closingHour": "04:00 PM"
-  },
-  {
-    "name": "Financial Experts",
-    "type": "Finance",
-    "address": {
-      "street": "Boulevard de Pury 20",
-      "postalCode": "2000",
-      "state": "Neuchâtel",
-      "country": "Switzerland"
-    },
-    "openingHour": "09:00 AM",
-    "closingHour": "06:00 PM"
-  },
-  {
-    "name": "Sihltalhütte Commerce",
-    "type": "Restaurant",
-    "address": {
-      "street": "Sihltalhütte 2.4",
-      "postalCode": "8844",
-      "state": "Schwyz",
-      "country": "Switzerland"
-    },
-    "openingHour": "09:00",
-    "closingHour": "18:00"
-  },
-  {
-    "name": "Chemin De Rossétan Shop",
-    "type": "Retail",
-    "address": {
-      "street": "Chemin De Rossétan 5",
-      "postalCode": "1874",
-      "state": "Valais",
-      "country": "Switzerland"
-    },
-    "openingHour": "10:00",
-    "closingHour": "17:00"
-  },
-  {
-    "name": "Marais Fudraux Grocery",
-    "type": "Grocery",
-    "address": {
-      "street": "Marais Fudraux 7n",
-      "postalCode": "1774",
-      "state": "Fribourg",
-      "country": "Switzerland"
-    },
-    "openingHour": "08:00",
-    "closingHour": "16:00"
-  },
-  {
-    "name": "Route De Bettens Boutique",
-    "type": "Fashion",
-    "address": {
-      "street": "Route De Bettens 13",
-      "postalCode": "1042",
-      "state": "Vaud",
-      "country": "Switzerland"
-    },
-    "openingHour": "10:00",
-    "closingHour": "18:00"
-  },
-  {
-    "name": "Rohren Electronics",
-    "type": "Electronics",
-    "address": {
-      "street": "Rohren 2",
-      "postalCode": "8577",
-      "state": "Thurgau",
-      "country": "Switzerland"
-    },
-    "openingHour": "09:00",
-    "closingHour": "17:00"
-  },
-  {
-    "name": "La Boiraderie Furniture",
-    "type": "Furniture",
-    "address": {
-      "street": "La Boiraderie 89b",
-      "postalCode": "2864",
-      "state": "Jura",
-      "country": "Switzerland"
-    },
-    "openingHour": "09:00",
-    "closingHour": "18:00"
-  },
-  {
-    "name": "Schochenberg Sports",
-    "type": "Sports",
-    "address": {
-      "street": "Schochenberg 2271",
-      "postalCode": "9472",
-      "state": "Saint Gallen",
-      "country": "Switzerland"
-    },
-    "openingHour": "08:00",
-    "closingHour": "17:00"
-  },
-  {
-    "name": "Les Prises Bakery",
-    "type": "Bakery",
-    "address": {
-      "street": "Les Prises 4.2",
-      "postalCode": "1426",
-      "state": "Vaud",
-      "country": "Switzerland"
-    },
-    "openingHour": "08:00",
-    "closingHour": "16:00"
-  },
-  {
-    "name": "Müntschemiergasse Café",
-    "type": "Café",
-    "address": {
-      "street": "Müntschemiergasse 121",
-      "postalCode": "3232",
-      "state": "Bern",
-      "country": "Switzerland"
-    },
-    "openingHour": "09:00",
-    "closingHour": "17:00"
-  },
-  {
-    "name": "Unter Der Fluh Bookshop",
-    "type": "Bookstore",
-    "address": {
-      "street": "Unter Der Fluh 72a",
-      "postalCode": "3622",
-      "state": "Bern",
-      "country": "Switzerland"
-    },
-    "openingHour": "10:00",
-    "closingHour": "18:00"
-  },
-  {
-    "name": "Ettingen",
-    "type": "/",
-    "address": {
-      "street": "Hofstettenstrasse 41",
-      "postalCode": "4107",
-      "state": "Basel-Country",
-      "country": "Switzerland"
-    },
-    "openingHour": "8AM",
-    "closingHour": "6PM"
-  },
-  {
-    "name": "Muri",
-    "type": "w",
-    "address": {
-      "street": "Holderstock 2.15",
-      "postalCode": "5643",
-      "state": "Aargau",
-      "country": "Switzerland"
-    },
-    "openingHour": "8AM",
-    "closingHour": "6PM"
-  },
-  {
-    "name": "Müstair",
-    "type": "e",
-    "address": {
-      "street": "Via Alp Sielva 3",
-      "postalCode": "7537",
+      "street": "Via Davos Pali 10.1",
+      "postalCode": "7185",
+      "city": "Platta",
       "state": "Graubunden",
-      "country": "Switzerland"
+      "country": "Switzerland",
+      "coordinates": [46.645958, 8.844958]
     },
-    "openingHour": "9AM",
-    "closingHour": "5PM"
-  },
-  {
-    "name": "Praz-de-Fort",
-    "type": "n",
-    "address": {
-      "street": "Route de Ferret 9",
-      "postalCode": "1943",
-      "state": "Wallis",
-      "country": "Switzerland"
-    },
-    "openingHour": "10AM",
-    "closingHour": "4PM"
-  },
-  {
-    "name": "Lens",
-    "type": "e",
-    "address": {
-      "street": "Chemin De Revouir 11",
-      "postalCode": "1978",
-      "state": "Valais",
-      "country": "Switzerland"
-    },
-    "openingHour": "8AM",
-    "closingHour": "6PM"
-  },
-  {
-    "name": "Tamins",
-    "type": "r",
-    "address": {
-      "street": "Foppalochweg 40",
-      "postalCode": "7015",
-      "state": "Grisons",
-      "country": "Switzerland"
-    },
-    "openingHour": "10AM",
-    "closingHour": "3PM"
-  },
-  {
-    "name": "Andreas",
-    "type": "w",
-    "address": {
-      "street": "St. Andreas, Holderstock 2.15",
-      "postalCode": "5643",
-      "state": "Aargau",
-      "country": "Switzerland"
-    },
-    "openingHour": "8AM",
-    "closingHour": "6PM"
-  },
-  {
-    "name": "Arogno",
-    "type": "w",
-    "address": {
-      "street": "Stráda Da Vissín 38",
-      "postalCode": "6822",
-      "state": "Ticino",
-      "country": "Switzerland"
-    },
-    "openingHour": "9AM",
-    "closingHour": "4PM"
-  },
-  {
-    "name": "Kandersteg",
-    "type": "m",
-    "address": {
-      "street": "Hohtürli nn",
-      "postalCode": "3718",
-      "state": "Bern",
-      "country": "Switzerland"
-    },
-    "openingHour": "8AM",
-    "closingHour": "5PM"
-  },
-  {
-    "name": "Muotatal",
-    "type": "w",
-    "address": {
-      "street": "Plattenweidli 1.6",
-      "postalCode": "6436",
-      "state": "Schwyz",
-      "country": "Switzerland"
-    },
-    "openingHour": "10AM",
-    "closingHour": "3PM"
-  },
-  {
-    "name": "Pfadweid Shop",
-    "type": "Retail",
-    "address": {
-      "street": "Pfadweid 1.4",
-      "postalCode": "6330",
-      "state": "Zug",
-      "country": "Switzerland"
-    },
-    "openingHour": "09:00 AM",
-    "closingHour": "05:00 PM"
-  },
-  {
-    "name": "Hasenstrasse Boutique",
-    "type": "Fashion",
-    "address": {
-      "street": "Hasenstrasse 22.1",
-      "postalCode": "8353",
-      "state": "Zurich",
-      "country": "Switzerland"
-    },
-    "openingHour": "08:30 AM",
-    "closingHour": "06:00 PM"
-  },
-  {
-    "name": "Gerra Verzasca Café",
-    "type": "Food",
-    "address": {
-      "street": "Gerra Verzasca 2022a.99",
-      "postalCode": "6635",
-      "state": "Ticino",
-      "country": "Switzerland"
-    },
-    "openingHour": "10:00 AM",
-    "closingHour": "04:00 PM"
-  },
-  {
-    "name": "Jennisweid Groceries",
-    "type": "Grocery",
-    "address": {
-      "street": "Jennisweid 275a",
-      "postalCode": "3537",
-      "state": "Bern",
-      "country": "Switzerland"
-    },
-    "openingHour": "08:00 AM",
-    "closingHour": "05:00 PM"
-  },
-  {
-    "name": "Enggenhüttenstrasse Market",
-    "type": "Market",
-    "address": {
-      "street": "Enggenhüttenstrasse 103a",
-      "postalCode": "9050",
-      "state": "Appenzell Innerrhoden",
-      "country": "Switzerland"
-    },
-    "openingHour": "09:00 AM",
-    "closingHour": "06:00 PM"
-  },
-  {
-    "name": "Schulhaus Speicherschwendi",
-    "type": "Education",
-    "address": {
-      "street": "Achmühlestrasse 5",
-      "postalCode": "9037",
-      "state": "Appenzell Ausserrhoden",
-      "country": "Switzerland"
-    },
-    "openingHour": "08:00 AM",
-    "closingHour": "03:00 PM"
-  },
-  {
-    "name": "Rue De Belle-Ile Furniture",
-    "type": "Furniture",
-    "address": {
-      "street": "Rue De Belle-Ile 7.2",
-      "postalCode": "2114",
-      "state": "Neuchatel",
-      "country": "Switzerland"
-    },
-    "openingHour": "09:00 AM",
-    "closingHour": "05:00 PM"
-  },
-  {
-    "name": "Bickigen Electronics",
-    "type": "Electronics",
-    "address": {
-      "street": "Bickigen nn",
-      "postalCode": "3472",
-      "state": "Bern",
-      "country": "Switzerland"
-    },
-    "openingHour": "09:30 AM",
-    "closingHour": "04:30 PM"
-  },
-  {
-    "name": "Tobelstrasse Books",
-    "type": "Books",
-    "address": {
-      "street": "Tobelstrasse 1236.1",
-      "postalCode": "9037",
-      "state": "Appenzell Ausserrhoden",
-      "country": "Switzerland"
-    },
-    "openingHour": "10:00 AM",
-    "closingHour": "06:00 PM"
-  },
-  {
-    "name": "Dürstelweid Hardware",
-    "type": "Hardware",
-    "address": {
-      "street": "Dürstelweid 147c",
-      "postalCode": "4438",
-      "state": "Basel-Country",
-      "country": "Switzerland"
-    },
-    "openingHour": "08:00 AM",
-    "closingHour": "05:00 PM"
-  },
-  {
-    "name": "Commerce A",
-    "type": "Clothing Store",
-    "address": {
-      "street": "le Tombet 230",
-      "postalCode": "2608",
-      "state": "Bern",
-      "country": "Switzerland"
-    },
-    "openingHour": "08:35",
-    "closingHour": "17:02"
-  },
-  {
-    "name": "Commerce B",
-    "type": "Grocery Store",
-    "address": {
-      "street": "Quaderisstrasse 29.1",
-      "postalCode": "7215",
-      "state": "Graubunden",
-      "country": "Switzerland"
-    },
-    "openingHour": "09:01",
-    "closingHour": "16:45"
-  },
-  {
-    "name": "Commerce C",
-    "type": "Coffee Shop",
-    "address": {
-      "street": "Lochhütte Egg 2",
-      "postalCode": "6386",
-      "state": "Nidwalden",
-      "country": "Switzerland"
-    },
-    "openingHour": "08:00",
-    "closingHour": "17:00"
-  },
-  {
-    "name": "Commerce D",
-    "type": "Bakery",
-    "address": {
-      "street": "Chemin De La Crosette 11",
-      "postalCode": "1896",
-      "state": "Valais",
-      "country": "Switzerland"
-    },
-    "openingHour": "08:15",
+    "openingHour": "08:30",
     "closingHour": "16:30"
   },
   {
-    "name": "Commerce E",
-    "type": "Bookstore",
+    "id": 5,
+    "name": "Le Paquier Boutique",
+    "type": "Clothing",
     "address": {
-      "street": "Alpe Di Quarnei 5686a.99",
-      "postalCode": "6713",
-      "state": "Ticino",
-      "country": "Switzerland"
+      "street": "Les Planches 6",
+      "postalCode": "2056",
+      "city": "Val-de-Ruz",
+      "state": "Neuchatel",
+      "country": "Switzerland",
+      "coordinates": [47.086511, 6.964622]
     },
-    "openingHour": "10:00",
-    "closingHour": "18:00"
-  },
-  {
-    "name": "Commerce F",
-    "type": "Electronics Store",
-    "address": {
-      "street": "Route d'Orzèrett 87",
-      "postalCode": "3961",
-      "state": "Valais",
-      "country": "Switzerland"
-    },
-    "openingHour": "08:30",
+    "openingHour": "09:30",
     "closingHour": "17:30"
   },
   {
-    "name": "Commerce G",
-    "type": "Pharmacy",
+    "id": 6,
+    "name": "Beinwil Bakery",
+    "type": "Bakery",
     "address": {
-      "street": "Le Mairâ 42.1",
-      "postalCode": "2925",
-      "state": "Jura",
-      "country": "Switzerland"
+      "street": "Ober Chratten 60",
+      "postalCode": "4229",
+      "city": "Beinwil (SO)",
+      "state": "Solothurn",
+      "country": "Switzerland",
+      "coordinates": [47.34558, 7.605554]
     },
     "openingHour": "08:00",
-    "closingHour": "16:45"
+    "closingHour": "18:00"
   },
   {
-    "name": "Commerce H",
+    "id": 7,
+    "name": "Surrein Groceries",
     "type": "Supermarket",
     "address": {
-      "street": "Häisihag 6a",
-      "postalCode": "3253",
-      "state": "Solothurn",
-      "country": "Switzerland"
+      "street": "Via Valtenigia 4",
+      "postalCode": "7173",
+      "city": "Surrein",
+      "state": "Graubunden",
+      "country": "Switzerland",
+      "coordinates": [46.677405, 8.972045]
     },
     "openingHour": "09:00",
+    "closingHour": "18:00"
+  },
+  {
+    "id": 8,
+    "name": "Schmitten Delicatessen",
+    "type": "Delicatessen",
+    "address": {
+      "street": "Raglaunawäg 33",
+      "postalCode": "7493",
+      "city": "Schmitten",
+      "state": "Graubunden",
+      "country": "Switzerland",
+      "coordinates": [46.702797, 9.673329]
+    },
+    "openingHour": "09:30",
     "closingHour": "17:00"
   },
   {
-    "name": "Commerce I",
-    "type": "Hardware Store",
+    "id": 9,
+    "name": "Vermol's Electronics",
+    "type": "Electronics",
     "address": {
-      "street": "Rinderbiel 496b",
-      "postalCode": "3855",
-      "state": "Bern",
-      "country": "Switzerland"
+      "street": "Tobelweg 6.2",
+      "postalCode": "8886",
+      "city": "Mädris-Vermol",
+      "state": "Saint Gallen",
+      "country": "Switzerland",
+      "coordinates": [47.036869, 9.391379]
     },
     "openingHour": "08:00",
     "closingHour": "16:00"
   },
   {
-    "name": "Commerce J",
+    "id": 10,
+    "name": "Meiringen Art Gallery",
+    "type": "Art Gallery",
+    "address": {
+      "street": "Wirzen 556",
+      "postalCode": "3860",
+      "city": "Unterbach",
+      "state": "Bern",
+      "country": "Switzerland",
+      "coordinates": [46.727531, 8.094582]
+    },
+    "openingHour": "10:00",
+    "closingHour": "17:00"
+  },
+  {
+    "id": 11,
+    "name": "Habkern Books",
+    "type": "Bookstore",
+    "address": {
+      "street": "Ällgäuli 895",
+      "postalCode": "3804",
+      "city": "Habkern",
+      "state": "Bern",
+      "country": "Switzerland",
+      "coordinates": [46.775147, 7.900625]
+    },
+    "openingHour": "08:00 AM",
+    "closingHour": "04:00 PM"
+  },
+  {
+    "id": 12,
+    "name": "Engelberg Groceries",
+    "type": "Grocery Store",
+    "address": {
+      "street": "Ristis 1",
+      "postalCode": "6390",
+      "city": "Engelberg",
+      "state": "Obwalden",
+      "country": "Switzerland",
+      "coordinates": [46.83241, 8.407776]
+    },
+    "openingHour": "09:00 AM",
+    "closingHour": "06:00 PM"
+  },
+  {
+    "id": 13,
+    "name": "Hinterrhein Café",
+    "type": "Café",
+    "address": {
+      "street": "Rheinquellstrasse 9.1",
+      "postalCode": "7438",
+      "city": "Hinterrhein",
+      "state": "Graubunden",
+      "country": "Switzerland",
+      "coordinates": [46.52023, 9.174977]
+    },
+    "openingHour": "08:30 AM",
+    "closingHour": "05:30 PM"
+  },
+  {
+    "id": 14,
+    "name": "Saxon Bakery",
+    "type": "Bakery",
+    "address": {
+      "street": "Chemin De La Mouillire 3",
+      "postalCode": "1907",
+      "city": "Saxon",
+      "state": "Valais",
+      "country": "Switzerland",
+      "coordinates": [46.142496, 7.185842]
+    },
+    "openingHour": "08:00 AM",
+    "closingHour": "02:00 PM"
+  },
+  {
+    "id": 15,
+    "name": "Bürglen Fashion",
+    "type": "Clothing Store",
+    "address": {
+      "street": "Aussere Bittleten 1.1",
+      "postalCode": "6463",
+      "city": "Bürglen",
+      "state": "Uri",
+      "country": "Switzerland",
+      "coordinates": [46.882125, 8.656187]
+    },
+    "openingHour": "09:00 AM",
+    "closingHour": "05:00 PM"
+  },
+  {
+    "id": 16,
+    "name": "Sta. Maria Val Müstair Gifts",
+    "type": "Gift Shop",
+    "address": {
+      "street": "Via Alp Sprella 3",
+      "postalCode": "7536",
+      "city": "Sta. Maria Val Müstair",
+      "state": "Graubunden",
+      "country": "Switzerland",
+      "coordinates": [46.591919, 10.300121]
+    },
+    "openingHour": "10:00 AM",
+    "closingHour": "06:00 PM"
+  },
+  {
+    "id": 17,
+    "name": "Frasco Hardware",
+    "type": "Hardware Store",
+    "address": {
+      "street": "Vald 3",
+      "postalCode": "6636",
+      "city": "Frasco",
+      "state": "Ticino",
+      "country": "Switzerland",
+      "coordinates": [46.371025, 8.79948]
+    },
+    "openingHour": "08:30 AM",
+    "closingHour": "04:00 PM"
+  },
+  {
+    "id": 18,
+    "name": "Sudern Electronics",
+    "type": "Electronics Store",
+    "address": {
+      "street": "Vorder Naters 144f",
+      "postalCode": "3618",
+      "city": "Sudern",
+      "state": "Bern",
+      "country": "Switzerland",
+      "coordinates": [46.83542, 7.767051]
+    },
+    "openingHour": "09:00 AM",
+    "closingHour": "06:00 PM"
+  },
+  {
+    "id": 19,
+    "name": "Schongau Flowers",
     "type": "Florist",
     "address": {
-      "street": "Route Cantonale 1.2",
-      "postalCode": "1897",
+      "street": "Mülihalde 8",
+      "postalCode": "6288",
+      "city": "Schongau",
+      "state": "Lucerne",
+      "country": "Switzerland",
+      "coordinates": [47.2664744, 8.266108702286989]
+    },
+    "openingHour": "08:30 AM",
+    "closingHour": "05:30 PM"
+  },
+  {
+    "id": 20,
+    "name": "Gadmen Toys",
+    "type": "Toy Store",
+    "address": {
+      "street": "Mettlenberg 247",
+      "postalCode": "3863",
+      "city": "Innertkirchen",
+      "state": "Bern",
+      "country": "Switzerland",
+      "coordinates": [46.747816, 8.374036]
+    },
+    "openingHour": "08:00 AM",
+    "closingHour": "04:00 PM"
+  },
+  {
+    "id": 21,
+    "name": "Le Noirmont Bakery",
+    "type": "Bakery",
+    "address": {
+      "street": "Sur Le Gez 3044",
+      "postalCode": "2340",
+      "city": "Le Noirmont",
+      "state": "Jura",
+      "country": "Switzerland",
+      "coordinates": [47.200138, 6.926015]
+    },
+    "openingHour": "09:00",
+    "closingHour": "17:00"
+  },
+  {
+    "id": 22,
+    "name": "Cumpadials Grocery",
+    "type": "Grocery",
+    "address": {
+      "street": "Via Bostg 12",
+      "postalCode": "7176",
+      "city": "Cumpadials",
+      "state": "Graubunden",
+      "country": "Switzerland",
+      "coordinates": [46.704392, 8.91737]
+    },
+    "openingHour": "08:00",
+    "closingHour": "18:00"
+  },
+  {
+    "id": 23,
+    "name": "Belpberg Cafe",
+    "type": "Cafe",
+    "address": {
+      "street": "Hofstetten 44f",
+      "postalCode": "3124",
+      "city": "Belp",
+      "state": "Bern",
+      "country": "Switzerland",
+      "coordinates": [46.854827, 7.522176]
+    },
+    "openingHour": "10:00",
+    "closingHour": "16:00"
+  },
+  {
+    "id": 24,
+    "name": "Icogne Market",
+    "type": "Market",
+    "address": {
+      "street": "Chemin Er De Lens 35",
+      "postalCode": "1977",
+      "city": "Icogne",
       "state": "Valais",
-      "country": "Switzerland"
+      "country": "Switzerland",
+      "coordinates": [46.347507, 7.470826]
+    },
+    "openingHour": "09:00",
+    "closingHour": "17:00"
+  },
+  {
+    "id": 25,
+    "name": "Unterseen Pharmacy",
+    "type": "Pharmacy",
+    "address": {
+      "street": "Stollen 20",
+      "postalCode": "3800",
+      "city": "Unterseen",
+      "state": "Bern",
+      "country": "Switzerland",
+      "coordinates": [46.71173, 7.841418]
+    },
+    "openingHour": "08:00",
+    "closingHour": "18:00"
+  },
+  {
+    "id": 26,
+    "name": "Zeihen Hardware",
+    "type": "Hardware Store",
+    "address": {
+      "street": "Bahnhofstrasse 37",
+      "postalCode": "5079",
+      "city": "Zeihen",
+      "state": "Aargau",
+      "country": "Switzerland",
+      "coordinates": [47.480034, 8.091674]
+    },
+    "openingHour": "09:00",
+    "closingHour": "17:00"
+  },
+  {
+    "id": 27,
+    "name": "Ried-Brig Florist",
+    "type": "Florist",
+    "address": {
+      "street": "Neue Dorfstrasse 3",
+      "postalCode": "3911",
+      "city": "Ried-Brig",
+      "state": "Valais",
+      "country": "Switzerland",
+      "coordinates": [46.31368, 8.014141]
+    },
+    "openingHour": "08:00",
+    "closingHour": "18:00"
+  },
+  {
+    "id": 28,
+    "name": "Sachseln Bookstore",
+    "type": "Bookstore",
+    "address": {
+      "street": "Stepfen 1.1",
+      "postalCode": "6072",
+      "city": "Sachseln",
+      "state": "Obwalden",
+      "country": "Switzerland",
+      "coordinates": [46.803325, 8.267454]
+    },
+    "openingHour": "10:00",
+    "closingHour": "16:00"
+  },
+  {
+    "id": 29,
+    "name": "Furna Art Gallery",
+    "type": "Art Gallery",
+    "address": {
+      "street": "Quaggisweg 11.1",
+      "postalCode": "7232",
+      "city": "Furna",
+      "state": "Graubunden",
+      "country": "Switzerland",
+      "coordinates": [46.901832, 9.682417]
+    },
+    "openingHour": "09:00",
+    "closingHour": "17:00"
+  },
+  {
+    "id": 30,
+    "name": "Fleurier Boutique",
+    "type": "Boutique",
+    "address": {
+      "street": "La Mordettaz 1.5",
+      "postalCode": "2114",
+      "city": "Val-de-Travers",
+      "state": "Neuchatel",
+      "country": "Switzerland",
+      "coordinates": [46.884302, 6.578773]
+    },
+    "openingHour": "10:00",
+    "closingHour": "16:00"
+  },
+  {
+    "id": 31,
+    "name": "Golden Bistro",
+    "type": "Restaurant",
+    "address": {
+      "street": "Route De Prélet 15",
+      "postalCode": "1985",
+      "city": "Villa",
+      "state": "Valais",
+      "country": "Switzerland",
+      "coordinates": [46.109247, 7.521437]
+    },
+    "openingHour": "08:00",
+    "closingHour": "17:00"
+  },
+  {
+    "id": 32,
+    "name": "Zurzach Spa",
+    "type": "Wellness",
+    "address": {
+      "street": "Quellenstrasse 80.1",
+      "postalCode": "5330",
+      "city": "Bad Zurzach",
+      "state": "Aargau",
+      "country": "Switzerland",
+      "coordinates": [47.593259, 8.282051]
+    },
+    "openingHour": "09:00",
+    "closingHour": "18:00"
+  },
+  {
+    "id": 33,
+    "name": "Mountain Inn",
+    "type": "Hotel",
+    "address": {
+      "street": "Inner Urden 76",
+      "postalCode": "7064",
+      "city": "Tschiertschen",
+      "state": "Graubunden",
+      "country": "Switzerland",
+      "coordinates": [46.780076, 9.613506]
     },
     "openingHour": "10:00",
     "closingHour": "18:00"
   },
   {
-    "name": "Golden Hills",
-    "type": "Agriculture",
+    "id": 34,
+    "name": "Steg Sports",
+    "type": "Sports Equipment",
     "address": {
-      "street": "Voia Salera",
-      "postalCode": "7084",
-      "state": "Graubunden",
-      "country": "Switzerland"
+      "street": "Trockener Steg 20",
+      "postalCode": "3920",
+      "city": "Zermatt",
+      "state": "Valais",
+      "country": "Switzerland",
+      "coordinates": [45.970263, 7.72175]
     },
-    "openingHour": "08:00 AM",
-    "closingHour": "06:00 PM"
+    "openingHour": "08:00",
+    "closingHour": "16:00"
   },
   {
-    "name": "Moonlight Tech",
-    "type": "Technology",
+    "id": 35,
+    "name": "Kastensattel Cafe",
+    "type": "Cafe",
     "address": {
-      "street": "Aebnistrasse",
-      "postalCode": "8915",
-      "state": "Zurich",
-      "country": "Switzerland"
+      "street": "Bützel-Kastensattel 1.1",
+      "postalCode": "9464",
+      "city": "Lienz",
+      "state": "Saint Gallen",
+      "country": "Switzerland",
+      "coordinates": [47.284439, 9.49609]
     },
-    "openingHour": "09:00 AM",
-    "closingHour": "05:00 PM"
+    "openingHour": "09:00",
+    "closingHour": "17:00"
   },
   {
-    "name": "Fresh Flavors",
-    "type": "Food & Drink",
-    "address": {
-      "street": "Fluhweg",
-      "postalCode": "4145",
-      "state": "Solothurn",
-      "country": "Switzerland"
-    },
-    "openingHour": "10:00 AM",
-    "closingHour": "04:00 PM"
-  },
-  {
-    "name": "Alpine Adventures",
-    "type": "Travel & Transport",
-    "address": {
-      "street": "Stollen",
-      "postalCode": "6063",
-      "state": "Obwalden",
-      "country": "Switzerland"
-    },
-    "openingHour": "08:00 AM",
-    "closingHour": "05:00 PM"
-  },
-  {
-    "name": "Lake View Inns",
-    "type": "Hospitality",
-    "address": {
-      "street": "Ruchenbühlstrasse",
-      "postalCode": "3800",
-      "state": "Bern",
-      "country": "Switzerland"
-    },
-    "openingHour": "09:00 AM",
-    "closingHour": "06:00 PM"
-  },
-  {
-    "name": "Mountain Crafts",
-    "type": "Arts & Crafts",
-    "address": {
-      "street": "Alp Ozur",
-      "postalCode": "7450",
-      "state": "Graubunden",
-      "country": "Switzerland"
-    },
-    "openingHour": "08:00 AM",
-    "closingHour": "04:00 PM"
-  },
-  {
-    "name": "Ski Gear Pro",
-    "type": "Sports & Outdoors",
-    "address": {
-      "street": "Bäzberg",
-      "postalCode": "6490",
-      "state": "Uri",
-      "country": "Switzerland"
-    },
-    "openingHour": "09:00 AM",
-    "closingHour": "05:30 PM"
-  },
-  {
-    "name": "Nature's Boutique",
-    "type": "Retail",
-    "address": {
-      "street": "Chemin Des Isles",
-      "postalCode": "2015",
-      "state": "Neuchatel",
-      "country": "Switzerland"
-    },
-    "openingHour": "08:30 AM",
-    "closingHour": "05:00 PM"
-  },
-  {
-    "name": "Pampigny Produce",
-    "type": "Agriculture",
-    "address": {
-      "street": "Route De La Tuilière",
-      "postalCode": "1142",
-      "state": "Vaud",
-      "country": "Switzerland"
-    },
-    "openingHour": "09:00 AM",
-    "closingHour": "04:00 PM"
-  },
-  {
-    "name": "Ridge Traders",
-    "type": "Retail",
-    "address": {
-      "street": "Brombeerigrabenstrasse",
-      "postalCode": "8193",
-      "state": "Zurich",
-      "country": "Switzerland"
-    },
-    "openingHour": "08:00 AM",
-    "closingHour": "06:00 PM"
-  },
-  {
-    "name": "Commerce 1",
-    "type": "Watches",
-    "address": {
-      "street": "Chemin De La Cousse 13.6",
-      "postalCode": "1884",
-      "state": "Vaud",
-      "country": "Switzerland"
-    },
-    "openingHour": "08:00 AM",
-    "closingHour": "06:00 PM"
-  },
-  {
-    "name": "Commerce 2",
-    "type": "Groceries",
-    "address": {
-      "street": "Veia Gelgia 51",
-      "postalCode": "7455",
-      "state": "Graubunden",
-      "country": "Switzerland"
-    },
-    "openingHour": "08:30 AM",
-    "closingHour": "05:30 PM"
-  },
-  {
-    "name": "Commerce 3",
-    "type": "Furniture",
-    "address": {
-      "street": "Weidli 317",
-      "postalCode": "3854",
-      "state": "Bern",
-      "country": "Switzerland"
-    },
-    "openingHour": "09:00 AM",
-    "closingHour": "04:00 PM"
-  },
-  {
-    "name": "Commerce 4",
-    "type": "Electronics",
-    "address": {
-      "street": "Route des Voëttes 22",
-      "postalCode": "1864",
-      "state": "Vaud",
-      "country": "Switzerland"
-    },
-    "openingHour": "10:00 AM",
-    "closingHour": "05:00 PM"
-  },
-  {
-    "name": "Commerce 5",
-    "type": "Books",
-    "address": {
-      "street": "Valserbärgweg 1",
-      "postalCode": "7132",
-      "state": "Graubunden",
-      "country": "Switzerland"
-    },
-    "openingHour": "08:00 AM",
-    "closingHour": "06:00 PM"
-  },
-  {
-    "name": "Commerce 6",
-    "type": "Toys",
-    "address": {
-      "street": "Buechholzstrasse 102.8",
-      "postalCode": "8964",
-      "state": "Aargau",
-      "country": "Switzerland"
-    },
-    "openingHour": "09:00 AM",
-    "closingHour": "06:00 PM"
-  },
-  {
-    "name": "Commerce 7",
-    "type": "Apparel",
-    "address": {
-      "street": "Wiesenweg 15b",
-      "postalCode": "3400",
-      "state": "Bern",
-      "country": "Switzerland"
-    },
-    "openingHour": "08:30 AM",
-    "closingHour": "05:30 PM"
-  },
-  {
-    "name": "Commerce 8",
-    "type": "Jewelry",
-    "address": {
-      "street": "Moosgasse 46a",
-      "postalCode": "3215",
-      "state": "Fribourg",
-      "country": "Switzerland"
-    },
-    "openingHour": "10:00 AM",
-    "closingHour": "05:00 PM"
-  },
-  {
-    "name": "Commerce 9",
+    "id": 36,
+    "name": "Avoin Bakery",
     "type": "Bakery",
     "address": {
-      "street": "La Bergerie Moron 30b",
-      "postalCode": "2735",
-      "state": "Bern",
-      "country": "Switzerland"
+      "street": "Route d'Avoin 72",
+      "postalCode": "3961",
+      "city": "Grimentz",
+      "state": "Valais",
+      "country": "Switzerland",
+      "coordinates": [46.174211, 7.545899]
     },
-    "openingHour": "09:00 AM",
-    "closingHour": "04:00 PM"
+    "openingHour": "08:00",
+    "closingHour": "15:00"
   },
   {
-    "name": "Commerce 10",
-    "type": "Optics",
+    "id": 37,
+    "name": "Rochette Groceries",
+    "type": "Grocery Store",
     "address": {
-      "street": "Krauchtal 7a.1",
-      "postalCode": "8766",
-      "state": "Glarus",
-      "country": "Switzerland"
-    },
-    "openingHour": "08:30 AM",
-    "closingHour": "05:30 PM"
-  },
-  {
-    "name": "Commerce 1",
-    "type": "o",
-    "address": {
-      "street": "Route De Coeuve",
-      "postalCode": "2923",
+      "street": "Sous La Rochette 10b",
+      "postalCode": "2947",
+      "city": "Charmoille",
       "state": "Jura",
-      "country": "Switzerland"
+      "country": "Switzerland",
+      "coordinates": [47.423139, 7.224859]
     },
-    "openingHour": "9:00 AM",
-    "closingHour": "5:00 PM"
+    "openingHour": "08:00",
+    "closingHour": "18:00"
   },
   {
-    "name": "Commerce 2",
-    "type": "e",
+    "id": 38,
+    "name": "Ramboden Hardware",
+    "type": "Hardware Store",
     "address": {
-      "street": "Route Des Chesaux",
-      "postalCode": "1646",
-      "state": "Fribourg",
-      "country": "Switzerland"
+      "street": "Le Grand Ramboden 102h",
+      "postalCode": "2829",
+      "city": "Vermes",
+      "state": "Jura",
+      "country": "Switzerland",
+      "coordinates": [47.306903, 7.487798]
     },
-    "openingHour": "8:30 AM",
-    "closingHour": "4:30 PM"
+    "openingHour": "09:00",
+    "closingHour": "17:00"
   },
   {
-    "name": "Commerce 3",
-    "type": "m",
+    "id": 39,
+    "name": "Selden Flowers",
+    "type": "Florist",
     "address": {
-      "street": "Rothenegglen",
-      "postalCode": "6130",
-      "state": "Lucerne",
-      "country": "Switzerland"
-    },
-    "openingHour": "10:00 AM",
-    "closingHour": "6:00 PM"
-  },
-  {
-    "name": "Commerce 4",
-    "type": "n",
-    "address": {
-      "street": "Alte Strasse",
-      "postalCode": "3778",
+      "street": "Selden 2a",
+      "postalCode": "3718",
+      "city": "Kandersteg",
       "state": "Bern",
-      "country": "Switzerland"
+      "country": "Switzerland",
+      "coordinates": [46.452272, 7.710165]
+    },
+    "openingHour": "08:00",
+    "closingHour": "16:00"
+  },
+  {
+    "id": 40,
+    "name": "Rothaus Liquor",
+    "type": "Liquor Store",
+    "address": {
+      "street": "Rothausweg 7",
+      "postalCode": "8280",
+      "city": "Kreuzlingen",
+      "state": "Thurgau",
+      "country": "Switzerland",
+      "coordinates": [47.6397445, 9.183435911186974]
+    },
+    "openingHour": "10:00",
+    "closingHour": "18:00"
+  },
+  {
+    "id": 41,
+    "name": "Optical Oasis",
+    "type": "Optician",
+    "address": {
+      "street": "Biffig 4.1",
+      "postalCode": "6247",
+      "city": "Schötz",
+      "state": "Lucerne",
+      "country": "Switzerland",
+      "coordinates": [47.172266, 7.997273]
     },
     "openingHour": "8:00 AM",
-    "closingHour": "3:00 PM"
-  },
-  {
-    "name": "Commerce 5",
-    "type": "w",
-    "address": {
-      "street": "Quai Robert-Comtesse",
-      "postalCode": "2000",
-      "state": "Neuchatel",
-      "country": "Switzerland"
-    },
-    "openingHour": "9:30 AM",
-    "closingHour": "5:30 PM"
-  },
-  {
-    "name": "Commerce 6",
-    "type": "r",
-    "address": {
-      "street": "Chemin Du Rogin",
-      "postalCode": "1081",
-      "state": "Vaud",
-      "country": "Switzerland"
-    },
-    "openingHour": "8:30 AM",
-    "closingHour": "5:00 PM"
-  },
-  {
-    "name": "Commerce 7",
-    "type": "e",
-    "address": {
-      "street": "Wildischachenstrasse",
-      "postalCode": "5200",
-      "state": "Aargau",
-      "country": "Switzerland"
-    },
-    "openingHour": "9:00 AM",
     "closingHour": "6:00 PM"
   },
   {
-    "name": "Commerce 8",
-    "type": "n",
+    "id": 42,
+    "name": "Herbal Haven",
+    "type": "Herbalist",
     "address": {
-      "street": "Sens",
-      "postalCode": "7404",
-      "state": "Graubunden",
-      "country": "Switzerland"
+      "street": "Alpe Ruscada 3",
+      "postalCode": "6658",
+      "city": "Comologno",
+      "state": "Ticino",
+      "country": "Switzerland",
+      "coordinates": [46.179606, 8.580075]
     },
-    "openingHour": "8:30 AM",
+    "openingHour": "9:00 AM",
     "closingHour": "4:00 PM"
   },
   {
-    "name": "Commerce 9",
-    "type": "e",
+    "id": 43,
+    "name": "Mountain Motors",
+    "type": "Auto Shop",
     "address": {
-      "street": "Route Du Barrage",
-      "postalCode": "3961",
+      "street": "Oberaletsch 25",
+      "postalCode": "3914",
+      "city": "Belalp",
       "state": "Valais",
-      "country": "Switzerland"
+      "country": "Switzerland",
+      "coordinates": [46.39103, 7.997765]
     },
     "openingHour": "10:00 AM",
     "closingHour": "5:00 PM"
   },
   {
-    "name": "Commerce 10",
-    "type": "h",
+    "id": 44,
+    "name": "Hearty Hut",
+    "type": "Restaurant",
     "address": {
-      "street": "Route De La Combasse",
-      "postalCode": "1957",
-      "state": "Valais",
-      "country": "Switzerland"
+      "street": "Route d'Epeisses 89",
+      "postalCode": "1237",
+      "city": "Avully",
+      "state": "Geneva",
+      "country": "Switzerland",
+      "coordinates": [46.169578, 5.983505]
     },
-    "openingHour": "8:00 AM",
-    "closingHour": "4:30 PM"
+    "openingHour": "8:30 AM",
+    "closingHour": "5:30 PM"
   },
   {
-    "name": "La Comballaz Market",
-    "type": "General Store",
+    "id": 45,
+    "name": "Wilderness Wonders",
+    "type": "Outdoor Equipment",
     "address": {
-      "street": "Chemin de Sonnaz 19bis",
-      "postalCode": "1862",
+      "street": "Chemin de Reuvroz 9",
+      "postalCode": "1884",
+      "city": "Villars-sur-Ollon",
       "state": "Vaud",
-      "country": "Switzerland"
+      "country": "Switzerland",
+      "coordinates": [46.2946783, 7.05486125]
+    },
+    "openingHour": "9:30 AM",
+    "closingHour": "5:00 PM"
+  },
+  {
+    "id": 46,
+    "name": "Oasis Cafe",
+    "type": "Cafe",
+    "address": {
+      "street": "Schlösslibüchel 1354.1",
+      "postalCode": "8718",
+      "city": "Schänis",
+      "state": "Saint Gallen",
+      "country": "Switzerland",
+      "coordinates": [47.14846, 9.080265]
+    },
+    "openingHour": "8:00 AM",
+    "closingHour": "6:00 PM"
+  },
+  {
+    "id": 47,
+    "name": "Rush Retail",
+    "type": "Retail Store",
+    "address": {
+      "street": "La Chaille 1",
+      "postalCode": "2023",
+      "city": "Gorgier",
+      "state": "Neuchatel",
+      "country": "Switzerland",
+      "coordinates": [46.932008, 6.753641]
+    },
+    "openingHour": "8:00 AM",
+    "closingHour": "6:00 PM"
+  },
+  {
+    "id": 48,
+    "name": "Majestic Motors",
+    "type": "Auto Shop",
+    "address": {
+      "street": "Hinterdorfstrasse 6",
+      "postalCode": "3999",
+      "city": "Obergoms",
+      "state": "Wallis",
+      "country": "Switzerland",
+      "coordinates": [46.5331734, 8.3527648]
+    },
+    "openingHour": "8:00 AM",
+    "closingHour": "5:00 PM"
+  },
+  {
+    "id": 49,
+    "name": "Wise Wonders",
+    "type": "Bookstore",
+    "address": {
+      "street": "Ettriastrasse 7",
+      "postalCode": "3989",
+      "city": "Niederwald",
+      "state": "Valais",
+      "country": "Switzerland",
+      "coordinates": [46.43382, 8.201889]
+    },
+    "openingHour": "9:00 AM",
+    "closingHour": "5:00 PM"
+  },
+  {
+    "id": 50,
+    "name": "Water World Wonders",
+    "type": "Waterpark",
+    "address": {
+      "street": "Tramstrasse 33",
+      "postalCode": "9444",
+      "city": "Diepoldsau",
+      "state": "Saint Gallen",
+      "country": "Switzerland",
+      "coordinates": [47.389474, 9.649031]
+    },
+    "openingHour": "10:00 AM",
+    "closingHour": "6:00 PM"
+  },
+  {
+    "id": 51,
+    "name": "Beinwil Shop",
+    "type": "Retail",
+    "address": {
+      "street": "Seestrasse 502.3",
+      "postalCode": "5712",
+      "city": "Beinwil am See",
+      "state": "Aargau",
+      "country": "Switzerland",
+      "coordinates": [47.263834, 8.21344]
+    },
+    "openingHour": "08:00 AM",
+    "closingHour": "06:00 PM"
+  },
+  {
+    "id": 52,
+    "name": "Paradies Mart",
+    "type": "Grocery",
+    "address": {
+      "street": "Paradies 181",
+      "postalCode": "7551",
+      "city": "Ftan",
+      "state": "Graubunden",
+      "country": "Switzerland",
+      "coordinates": [46.785619, 10.234763]
     },
     "openingHour": "09:00 AM",
     "closingHour": "05:00 PM"
   },
   {
-    "name": "Walpersbärgli Eatery",
-    "type": "Restaurant",
+    "id": 53,
+    "name": "Guber Electronics",
+    "type": "Electronics",
     "address": {
-      "street": "Walpersbergli 19",
-      "postalCode": "3762",
-      "state": "Bern",
-      "country": "Switzerland"
+      "street": "Guber 9",
+      "postalCode": "6055",
+      "city": "Alpnach",
+      "state": "Obwalden",
+      "country": "Switzerland",
+      "coordinates": [46.925684, 8.233497]
+    },
+    "openingHour": "08:30 AM",
+    "closingHour": "04:30 PM"
+  },
+  {
+    "id": 54,
+    "name": "Lignieres Bakery",
+    "type": "Bakery",
+    "address": {
+      "street": "Chemin De Vorgneux 8",
+      "postalCode": "2523",
+      "city": "Lignières",
+      "state": "Neuchatel",
+      "country": "Switzerland",
+      "coordinates": [47.091766, 7.050426]
+    },
+    "openingHour": "08:00 AM",
+    "closingHour": "06:00 PM"
+  },
+  {
+    "id": 55,
+    "name": "Mervelier Cafe",
+    "type": "Cafe",
+    "address": {
+      "street": "Chemin Du Transformateur 1g",
+      "postalCode": "2827",
+      "city": "Mervelier",
+      "state": "Jura",
+      "country": "Switzerland",
+      "coordinates": [47.342882, 7.491901]
+    },
+    "openingHour": "10:00 AM",
+    "closingHour": "05:00 PM"
+  },
+  {
+    "id": 56,
+    "name": "Eichmatt Pharmacy",
+    "type": "Pharmacy",
+    "address": {
+      "street": "Eichmatt 2.3",
+      "postalCode": "6289",
+      "city": "Hämikon",
+      "state": "Lucerne",
+      "country": "Switzerland",
+      "coordinates": [47.248652, 8.264782]
+    },
+    "openingHour": "08:00 AM",
+    "closingHour": "06:00 PM"
+  },
+  {
+    "id": 57,
+    "name": "Hinwil Salon",
+    "type": "Salon",
+    "address": {
+      "street": "Girenbadstrasse 25.1",
+      "postalCode": "8340",
+      "city": "Hinwil",
+      "state": "Zurich",
+      "country": "Switzerland",
+      "coordinates": [47.312119, 8.859388]
+    },
+    "openingHour": "09:00 AM",
+    "closingHour": "06:00 PM"
+  },
+  {
+    "id": 58,
+    "name": "Evolene Boutique",
+    "type": "Fashion",
+    "address": {
+      "street": "Route De Sion 143",
+      "postalCode": "1983",
+      "city": "Evolène",
+      "state": "Valais",
+      "country": "Switzerland",
+      "coordinates": [46.141723, 7.465656]
     },
     "openingHour": "10:00 AM",
     "closingHour": "06:00 PM"
   },
   {
-    "name": "Péry-La Heutte Grocery",
-    "type": "Grocery Store",
+    "id": 59,
+    "name": "Fusio Crafts",
+    "type": "Crafts",
     "address": {
-      "street": "Chemin du Haut des Roches 20",
-      "postalCode": "2604",
-      "state": "Bern",
-      "country": "Switzerland"
+      "street": "Val Sambuco 972b.99",
+      "postalCode": "6696",
+      "city": "Fusio",
+      "state": "Ticino",
+      "country": "Switzerland",
+      "coordinates": [46.479367, 8.611865]
+    },
+    "openingHour": "09:30 AM",
+    "closingHour": "05:30 PM"
+  },
+  {
+    "id": 60,
+    "name": "Unterschachen Hardware",
+    "type": "Hardware",
+    "address": {
+      "street": "Unter Äbnet 1.2",
+      "postalCode": "6465",
+      "city": "Unterschächen",
+      "state": "Uri",
+      "country": "Switzerland",
+      "coordinates": [46.869732, 8.764563]
     },
     "openingHour": "08:00 AM",
+    "closingHour": "06:00 PM"
+  },
+  {
+    "id": 61,
+    "name": "En-bas-les-Barres Store",
+    "type": "/",
+    "address": {
+      "street": "En-bas-les-Barres 1a.1",
+      "postalCode": "2316",
+      "city": "Les Ponts-de-Martel",
+      "state": "Neuchatel",
+      "country": "Switzerland",
+      "coordinates": [46.997278, 6.745305]
+    },
+    "openingHour": "08:00 AM",
+    "closingHour": "06:00 PM"
+  },
+  {
+    "id": 62,
+    "name": "Chemin En Verchère Shop",
+    "type": "e",
+    "address": {
+      "street": "Chemin En Verchère 2.2",
+      "postalCode": "1417",
+      "city": "Essertines-sur-Yverdon",
+      "state": "Vaud",
+      "country": "Switzerland",
+      "coordinates": [46.713317, 6.642147]
+    },
+    "openingHour": "09:00 AM",
+    "closingHour": "05:00 PM"
+  },
+  {
+    "id": 63,
+    "name": "Mätteli Retail",
+    "type": "n",
+    "address": {
+      "street": "Mätteli 2.7",
+      "postalCode": "6493",
+      "city": "Hospental",
+      "state": "Uri",
+      "country": "Switzerland",
+      "coordinates": [46.595035, 8.563852]
+    },
+    "openingHour": "10:00 AM",
     "closingHour": "04:00 PM"
   },
   {
-    "name": "Recards Bakery",
-    "type": "Bakery",
+    "id": 64,
+    "name": "Chemin Des Foulis Market",
+    "type": "h",
     "address": {
-      "street": "Chemin Des Recards 7",
-      "postalCode": "1659",
-      "state": "Vaud",
-      "country": "Switzerland"
+      "street": "Chemin Des Foulis 24",
+      "postalCode": "1222",
+      "city": "Collonge-Bellerive",
+      "state": "Geneva",
+      "country": "Switzerland",
+      "coordinates": [46.253791, 6.22726]
     },
     "openingHour": "08:30 AM",
     "closingHour": "05:30 PM"
   },
   {
-    "name": "Golf Club Aaretal",
-    "type": "Golf Club",
+    "id": 65,
+    "name": "Kapellstrasse Boutique",
+    "type": "e",
     "address": {
-      "street": "Professoreistrasse 36",
-      "postalCode": "3629",
-      "state": "Bern",
-      "country": "Switzerland"
+      "street": "Kapellstrasse 34.2",
+      "postalCode": "8847",
+      "city": "Egg",
+      "state": "Schwyz",
+      "country": "Switzerland",
+      "coordinates": [47.158179, 8.778718]
     },
     "openingHour": "09:00 AM",
     "closingHour": "06:00 PM"
   },
   {
-    "name": "Thalheim Workshop",
-    "type": "Workshop",
+    "id": 66,
+    "name": "Flüelistrasse Supplies",
+    "type": "/",
     "address": {
-      "street": "Geerensstrasse 1",
-      "postalCode": "8471",
+      "street": "Flüelistrasse 19.2",
+      "postalCode": "8226",
+      "city": "Schleitheim",
+      "state": "Schaffhausen",
+      "country": "Switzerland",
+      "coordinates": [47.750282, 8.460803]
+    },
+    "openingHour": "10:00 AM",
+    "closingHour": "05:00 PM"
+  },
+  {
+    "id": 67,
+    "name": "Dr. Rudolf Probstweg Stores",
+    "type": "e",
+    "address": {
+      "street": "Dr. Rudolf Probstweg 9",
+      "postalCode": "4513",
+      "city": "Langendorf",
+      "state": "Solothurn",
+      "country": "Switzerland",
+      "coordinates": [47.2236772, 7.5105325838235215]
+    },
+    "openingHour": "08:30 AM",
+    "closingHour": "04:30 PM"
+  },
+  {
+    "id": 68,
+    "name": "Seeboden Mart",
+    "type": "e",
+    "address": {
+      "street": "Seeboden 2",
+      "postalCode": "8915",
+      "city": "Hausen am Albis",
       "state": "Zurich",
-      "country": "Switzerland"
+      "country": "Switzerland",
+      "coordinates": [47.260575, 8.508116]
+    },
+    "openingHour": "09:00 AM",
+    "closingHour": "06:00 PM"
+  },
+  {
+    "id": 69,
+    "name": "Au Shop",
+    "type": "e",
+    "address": {
+      "street": "Au 1322",
+      "postalCode": "9473",
+      "city": "Gams",
+      "state": "Saint Gallen",
+      "country": "Switzerland",
+      "coordinates": [47.196331, 9.404093]
+    },
+    "openingHour": "08:00 AM",
+    "closingHour": "06:00 PM"
+  },
+  {
+    "id": 70,
+    "name": "Steinenbühl Goods",
+    "type": "/",
+    "address": {
+      "street": "Steinenbühl 215",
+      "postalCode": "4417",
+      "city": "Ziefen",
+      "state": "Basel-Country",
+      "country": "Switzerland",
+      "coordinates": [47.435535, 7.713993]
+    },
+    "openingHour": "10:00 AM",
+    "closingHour": "04:30 PM"
+  },
+  {
+    "id": 71,
+    "name": "Wydenstrasse Cafe",
+    "type": "Cafe",
+    "address": {
+      "street": "Wydenstrasse 36.6",
+      "postalCode": "5242",
+      "city": "Birr",
+      "state": "Aargau",
+      "country": "Switzerland",
+      "coordinates": [47.440026, 8.215467]
+    },
+    "openingHour": "08:00",
+    "closingHour": "18:00"
+  },
+  {
+    "id": 72,
+    "name": "Surettaweg Books",
+    "type": "Bookstore",
+    "address": {
+      "street": "Surettaweg 5",
+      "postalCode": "7434",
+      "city": "Sufers",
+      "state": "Graubunden",
+      "country": "Switzerland",
+      "coordinates": [46.558496, 9.394588]
+    },
+    "openingHour": "09:00",
+    "closingHour": "17:00"
+  },
+  {
+    "id": 73,
+    "name": "Glärnischstrasse Flowers",
+    "type": "Florist",
+    "address": {
+      "street": "Glärnischstrasse 26",
+      "postalCode": "8820",
+      "city": "Wädenswil",
+      "state": "Zurich",
+      "country": "Switzerland",
+      "coordinates": [47.231025, 8.667378]
+    },
+    "openingHour": "08:30",
+    "closingHour": "16:30"
+  },
+  {
+    "id": 74,
+    "name": "Brünigstrasse Bakery",
+    "type": "Bakery",
+    "address": {
+      "street": "Brünigstrasse 280",
+      "postalCode": "6072",
+      "city": "Ewil",
+      "state": "Obwalden",
+      "country": "Switzerland",
+      "coordinates": [46.8537451, 8.213348]
+    },
+    "openingHour": "08:00",
+    "closingHour": "15:00"
+  },
+  {
+    "id": 75,
+    "name": "Blüemelenstrasse Pharmacy",
+    "type": "Pharmacy",
+    "address": {
+      "street": "Blüemelenstrasse 1",
+      "postalCode": "8585",
+      "city": "Klarsreuti",
+      "state": "Thurgau",
+      "country": "Switzerland",
+      "coordinates": [47.588997, 9.223636]
+    },
+    "openingHour": "09:00",
+    "closingHour": "18:00"
+  },
+  {
+    "id": 76,
+    "name": "Via Giachentrina Market",
+    "type": "Market",
+    "address": {
+      "street": "Via Giachentrina 21",
+      "postalCode": "7173",
+      "city": "Surrein",
+      "state": "Graubunden",
+      "country": "Switzerland",
+      "coordinates": [46.720269, 8.943172]
+    },
+    "openingHour": "10:00",
+    "closingHour": "17:00"
+  },
+  {
+    "id": 77,
+    "name": "Les Tservettes Jewelry",
+    "type": "Jewelry Shop",
+    "address": {
+      "street": "Les Tservettes 139",
+      "postalCode": "1666",
+      "city": "Grandvillard",
+      "state": "Fribourg",
+      "country": "Switzerland",
+      "coordinates": [46.540936, 7.121793]
+    },
+    "openingHour": "09:30",
+    "closingHour": "17:30"
+  },
+  {
+    "id": 78,
+    "name": "Via Camplan Toys",
+    "type": "Toy Store",
+    "address": {
+      "street": "Via Camplan 5",
+      "postalCode": "7606",
+      "city": "Promontogno",
+      "state": "Graubunden",
+      "country": "Switzerland",
+      "coordinates": [46.341494, 9.570351]
+    },
+    "openingHour": "08:00",
+    "closingHour": "16:00"
+  },
+  {
+    "id": 79,
+    "name": "Via Crap Masegn Electronics",
+    "type": "Electronics",
+    "address": {
+      "street": "Via Crap Masegn 4",
+      "postalCode": "7032",
+      "city": "Ladir",
+      "state": "Graubunden",
+      "country": "Switzerland",
+      "coordinates": [46.842101, 9.180098]
+    },
+    "openingHour": "09:00",
+    "closingHour": "15:00"
+  },
+  {
+    "id": 80,
+    "name": "Gässli Restaurant",
+    "type": "Restaurant",
+    "address": {
+      "street": "Gässli 12b",
+      "postalCode": "3534",
+      "city": "Schüpbach",
+      "state": "Bern",
+      "country": "Switzerland",
+      "coordinates": [46.919704, 7.727271]
+    },
+    "openingHour": "10:00",
+    "closingHour": "18:00"
+  },
+  {
+    "id": 81,
+    "name": "Wittenfärren Cafe",
+    "type": "Cafe",
+    "address": {
+      "street": "Wittenfärren 1.4",
+      "postalCode": "6196",
+      "city": "Marbach",
+      "state": "Lucerne",
+      "country": "Switzerland",
+      "coordinates": [46.834102, 7.917458]
+    },
+    "openingHour": "08:00 AM",
+    "closingHour": "06:00 PM"
+  },
+  {
+    "id": 82,
+    "name": "Kalten Food Market",
+    "type": "Food Market",
+    "address": {
+      "street": "Kaltenbrunnenweg 53a",
+      "postalCode": "3775",
+      "city": "Lenk",
+      "state": "Bern",
+      "country": "Switzerland",
+      "coordinates": [46.4619908, 7.475237746387419]
+    },
+    "openingHour": "09:00 AM",
+    "closingHour": "05:00 PM"
+  },
+  {
+    "id": 83,
+    "name": "Hub Technology Store",
+    "type": "Technology",
+    "address": {
+      "street": "Hub 100.1",
+      "postalCode": "9463",
+      "city": "Oberriet",
+      "state": "Saint Gallen",
+      "country": "Switzerland",
+      "coordinates": [47.338078, 9.530007]
+    },
+    "openingHour": "08:30 AM",
+    "closingHour": "05:30 PM"
+  },
+  {
+    "id": 84,
+    "name": "Läger Bookstore",
+    "type": "Bookstore",
+    "address": {
+      "street": "Läger 543",
+      "postalCode": "3824",
+      "city": "Lauterbrunnen",
+      "state": "Bern",
+      "country": "Switzerland",
+      "coordinates": [46.514042, 7.897419]
+    },
+    "openingHour": "09:00 AM",
+    "closingHour": "06:00 PM"
+  },
+  {
+    "id": 85,
+    "name": "Schwarzenbach Boutique",
+    "type": "Boutique",
+    "address": {
+      "street": "Schwarzenbach 4.22",
+      "postalCode": "6436",
+      "city": "Bisisthal",
+      "state": "Schwyz",
+      "country": "Switzerland",
+      "coordinates": [46.938453, 8.850638]
+    },
+    "openingHour": "08:00 AM",
+    "closingHour": "04:00 PM"
+  },
+  {
+    "id": 86,
+    "name": "Leissigbärgli Spa",
+    "type": "Spa",
+    "address": {
+      "street": "Leissigbärgli 514",
+      "postalCode": "3706",
+      "city": "Leissigen",
+      "state": "Bern",
+      "country": "Switzerland",
+      "coordinates": [46.63871, 7.798473]
+    },
+    "openingHour": "10:00 AM",
+    "closingHour": "05:00 PM"
+  },
+  {
+    "id": 87,
+    "name": "Grimselstrasse Bakery",
+    "type": "Bakery",
+    "address": {
+      "street": "Grimselstrasse 7",
+      "postalCode": "3999",
+      "city": "Oberwald",
+      "state": "Valais",
+      "country": "Switzerland",
+      "coordinates": [46.558693, 8.341751]
+    },
+    "openingHour": "08:00 AM",
+    "closingHour": "06:00 PM"
+  },
+  {
+    "id": 88,
+    "name": "Im Gspon Restaurant",
+    "type": "Restaurant",
+    "address": {
+      "street": "Im Gspon 1",
+      "postalCode": "8874",
+      "city": "Glarus Nord",
+      "state": "Glarus",
+      "country": "Switzerland",
+      "coordinates": [47.07197, 9.190499]
+    },
+    "openingHour": "08:00 AM",
+    "closingHour": "06:00 PM"
+  },
+  {
+    "id": 89,
+    "name": "Via Malpensada Groceries",
+    "type": "Groceries",
+    "address": {
+      "street": "Via Malpensada 63",
+      "postalCode": "6742",
+      "city": "Pollegio",
+      "state": "Ticino",
+      "country": "Switzerland",
+      "coordinates": [46.365146, 8.959091]
+    },
+    "openingHour": "08:30 AM",
+    "closingHour": "05:30 PM"
+  },
+  {
+    "id": 90,
+    "name": "Riedji Pharmacy",
+    "type": "Pharmacy",
+    "address": {
+      "street": "Riedji 6",
+      "postalCode": "3924",
+      "city": "St. Niklaus",
+      "state": "Valais",
+      "country": "Switzerland",
+      "coordinates": [46.173235, 7.7877]
+    },
+    "openingHour": "09:00 AM",
+    "closingHour": "06:00 PM"
+  },
+  {
+    "id": 91,
+    "name": "Business One",
+    "type": "o",
+    "address": {
+      "street": "Niedermattgraben 179",
+      "postalCode": "3543",
+      "city": "Schüpbach",
+      "state": "Bern",
+      "country": "Switzerland",
+      "coordinates": [46.93716605, 7.713178156126011]
     },
     "openingHour": "08:00 AM",
     "closingHour": "05:00 PM"
   },
   {
-    "name": "Cresciano Gallery",
-    "type": "Art Gallery",
+    "id": 92,
+    "name": "Business Two",
+    "type": "n",
     "address": {
-      "street": "A Ruschèda 1001l.99",
-      "postalCode": "6705",
+      "street": "Gattikonerstrasse 47",
+      "postalCode": "8800",
+      "city": "Thalwil",
+      "state": "Zurich",
+      "country": "Switzerland",
+      "coordinates": [47.284424650000005, 8.555699699999998]
+    },
+    "openingHour": "09:00 AM",
+    "closingHour": "06:00 PM"
+  },
+  {
+    "id": 93,
+    "name": "Business Three",
+    "type": "m",
+    "address": {
+      "street": "C'assinascia 1",
+      "postalCode": "6780",
+      "city": "Airolo",
       "state": "Ticino",
-      "country": "Switzerland"
+      "country": "Switzerland",
+      "coordinates": [46.552211, 8.632953]
+    },
+    "openingHour": "08:30 AM",
+    "closingHour": "05:30 PM"
+  },
+  {
+    "id": 94,
+    "name": "Business Four",
+    "type": "r",
+    "address": {
+      "street": "Balm 2",
+      "postalCode": "6436",
+      "city": "Stalden",
+      "state": "Schwyz",
+      "country": "Switzerland",
+      "coordinates": [46.93783355, 8.824217325672551]
     },
     "openingHour": "10:00 AM",
     "closingHour": "04:00 PM"
   },
   {
-    "name": "Ricken Textile Shop",
-    "type": "Clothing Store",
+    "id": 95,
+    "name": "Business Five",
+    "type": "e",
     "address": {
-      "street": "Rietmaren 9.1",
-      "postalCode": "8726",
-      "state": "Saint Gallen",
-      "country": "Switzerland"
+      "street": "Stockjistrasse 47",
+      "postalCode": "3903",
+      "city": "Naters",
+      "state": "Valais",
+      "country": "Switzerland",
+      "coordinates": [46.325338, 7.978632]
+    },
+    "openingHour": "09:00 AM",
+    "closingHour": "05:00 PM"
+  },
+  {
+    "id": 96,
+    "name": "Business Six",
+    "type": "e",
+    "address": {
+      "street": "Mittlerrotbach 1.1",
+      "postalCode": "6162",
+      "city": "Finsterwald b. Entlebuch",
+      "state": "Lucerne",
+      "country": "Switzerland",
+      "coordinates": [46.906349, 8.111198]
+    },
+    "openingHour": "08:00 AM",
+    "closingHour": "04:30 PM"
+  },
+  {
+    "id": 97,
+    "name": "Business Seven",
+    "type": "e",
+    "address": {
+      "street": "Chemin Du Chalet Vieux 1",
+      "postalCode": "1865",
+      "city": "Ormont-Dessus",
+      "state": "Vaud",
+      "country": "Switzerland",
+      "coordinates": [46.369018, 7.207548]
+    },
+    "openingHour": "09:00 AM",
+    "closingHour": "05:30 PM"
+  },
+  {
+    "id": 98,
+    "name": "Business Eight",
+    "type": "r",
+    "address": {
+      "street": "Route de Javerne 14",
+      "postalCode": "1880",
+      "city": "Bex",
+      "state": "Vaud",
+      "country": "Switzerland",
+      "coordinates": [46.2453946, 7.057312899999996]
     },
     "openingHour": "09:30 AM",
     "closingHour": "05:00 PM"
   },
   {
-    "name": "Marbach Jewelers",
-    "type": "Jewelry Store",
+    "id": 99,
+    "name": "Business Nine",
+    "type": "o",
     "address": {
-      "street": "Ober Meisenegg 1.2",
-      "postalCode": "6196",
-      "state": "Lucerne",
-      "country": "Switzerland"
+      "street": "Via Al Generoso 29",
+      "postalCode": "6821",
+      "city": "Val Mara",
+      "state": "Ticino",
+      "country": "Switzerland",
+      "coordinates": [45.933052, 8.993921]
     },
-    "openingHour": "09:00 AM",
-    "closingHour": "04:30 PM"
+    "openingHour": "08:00 AM",
+    "closingHour": "05:00 PM"
   },
   {
-    "name": "Wolfhausen Electronics",
-    "type": "Electronics Store",
+    "id": 100,
+    "name": "Business Ten",
+    "type": "o",
     "address": {
-      "street": "Lützelseestrasse 14a",
-      "postalCode": "8633",
-      "state": "Zurich",
-      "country": "Switzerland"
+      "street": "Kistler Alp 1.8",
+      "postalCode": "8864",
+      "city": "Reichenburg",
+      "state": "Schwyz",
+      "country": "Switzerland",
+      "coordinates": [47.143973, 8.962339]
     },
     "openingHour": "08:30 AM",
-    "closingHour": "06:00 PM"
-  },
-  {
-    "name": "Sunrise Supply",
-    "type": "Market",
-    "address": {
-      "street": "Tête-de-Ran 1",
-      "postalCode": "2052",
-      "state": "Neuchatel",
-      "country": "Switzerland"
-    },
-    "openingHour": "09:00 AM",
-    "closingHour": "05:00 PM"
-  },
-  {
-    "name": "Blue Lagoon",
-    "type": "Restaurant",
-    "address": {
-      "street": "Salzmatt 279",
-      "postalCode": "1716",
-      "state": "Fribourg",
-      "country": "Switzerland"
-    },
-    "openingHour": "08:00 AM",
-    "closingHour": "04:00 PM"
-  },
-  {
-    "name": "Vivid Styles",
-    "type": "Beauty Salon",
-    "address": {
-      "street": "Route d'Arolla 82",
-      "postalCode": "1984",
-      "state": "Valais",
-      "country": "Switzerland"
-    },
-    "openingHour": "10:00 AM",
-    "closingHour": "06:00 PM"
-  },
-  {
-    "name": "Sunset Boutique",
-    "type": "Market",
-    "address": {
-      "street": "Wasserbergweg 358",
-      "postalCode": "4252",
-      "state": "Solothurn",
-      "country": "Switzerland"
-    },
-    "openingHour": "08:00 AM",
-    "closingHour": "04:00 PM"
-  },
-  {
-    "name": "The Strict",
-    "type": "Hotel",
-    "address": {
-      "street": "Furka 1.6",
-      "postalCode": "6491",
-      "state": "Uri",
-      "country": "Switzerland"
-    },
-    "openingHour": "09:00 AM",
-    "closingHour": "05:00 PM"
-  },
-  {
-    "name": "Elegant Dine",
-    "type": "Hotel",
-    "address": {
-      "street": "Route de Saclentse 51",
-      "postalCode": "1996",
-      "state": "Wallis",
-      "country": "Switzerland"
-    },
-    "openingHour": "08:00 AM",
-    "closingHour": "03:00 PM"
-  },
-  {
-    "name": "Natural Health",
-    "type": "Beauty Salon",
-    "address": {
-      "street": "Heimenhausstrasse 19d",
-      "postalCode": "3038",
-      "state": "Bern",
-      "country": "Switzerland"
-    },
-    "openingHour": "10:00 AM",
-    "closingHour": "06:00 PM"
-  },
-  {
-    "name": "EcoMart",
-    "type": "Market",
-    "address": {
-      "street": "Fühlacker 105a.1",
-      "postalCode": "4618",
-      "state": "Solothurn",
-      "country": "Switzerland"
-    },
-    "openingHour": "09:00 AM",
-    "closingHour": "05:00 PM"
-  },
-  {
-    "name": "Epicurean Eatery",
-    "type": "Restaurant",
-    "address": {
-      "street": "Obermosstrasse 5",
-      "postalCode": "8267",
-      "state": "Thurgau",
-      "country": "Switzerland"
-    },
-    "openingHour": "08:00 AM",
-    "closingHour": "04:00 PM"
-  },
-  {
-    "name": "Harmony House",
-    "type": "Market",
-    "address": {
-      "street": "Voia da Son Tgaschang 3",
-      "postalCode": "7083",
-      "state": "Grisons",
-      "country": "Switzerland"
-    },
-    "openingHour": "09:00 AM",
-    "closingHour": "03:00 PM"
-  },
-  {
-    "name": "Commercial Enterprise 1",
-    "type": "e",
-    "address": {
-      "street": "Pra-Mottay",
-      "postalCode": "1321",
-      "state": "Vaud",
-      "country": "Switzerland"
-    },
-    "openingHour": "9 AM",
-    "closingHour": "5 PM"
-  },
-  {
-    "name": "Commercial Enterprise 2",
-    "type": "w",
-    "address": {
-      "street": "Balmi",
-      "postalCode": "3757",
-      "state": "Bern",
-      "country": "Switzerland"
-    },
-    "openingHour": "10 AM",
-    "closingHour": "4 PM"
-  },
-  {
-    "name": "Commercial Enterprise 3",
-    "type": "m",
-    "address": {
-      "street": "Rütelihof",
-      "postalCode": "6340",
-      "state": "Zug",
-      "country": "Switzerland"
-    },
-    "openingHour": "8 AM",
-    "closingHour": "6 PM"
-  },
-  {
-    "name": "Commercial Enterprise 4",
-    "type": "e",
-    "address": {
-      "street": "Oberberg",
-      "postalCode": "4704",
-      "state": "Bern",
-      "country": "Switzerland"
-    },
-    "openingHour": "10 AM",
-    "closingHour": "5 PM"
-  },
-  {
-    "name": "Commercial Enterprise 5",
-    "type": "m",
-    "address": {
-      "street": "Surütti",
-      "postalCode": "6482",
-      "state": "Uri",
-      "country": "Switzerland"
-    },
-    "openingHour": "9 AM",
-    "closingHour": "6 PM"
-  },
-  {
-    "name": "Commercial Enterprise 6",
-    "type": "w",
-    "address": {
-      "street": "Dorfmatt",
-      "postalCode": "6244",
-      "state": "Lucerne",
-      "country": "Switzerland"
-    },
-    "openingHour": "8 AM",
-    "closingHour": "5 PM"
-  },
-  {
-    "name": "Commercial Enterprise 7",
-    "type": "/",
-    "address": {
-      "street": "Camon",
-      "postalCode": "7457",
-      "state": "Graubunden",
-      "country": "Switzerland"
-    },
-    "openingHour": "9 AM",
-    "closingHour": "6 PM"
-  },
-  {
-    "name": "Commercial Enterprise 8",
-    "type": "/",
-    "address": {
-      "street": "Hubenstrasse",
-      "postalCode": "8051",
-      "state": "Zurich",
-      "country": "Switzerland"
-    },
-    "openingHour": "10 AM",
-    "closingHour": "6 PM"
-  },
-  {
-    "name": "Commercial Enterprise 9",
-    "type": "e",
-    "address": {
-      "street": "Gletti",
-      "postalCode": "3154",
-      "state": "Bern",
-      "country": "Switzerland"
-    },
-    "openingHour": "8 AM",
-    "closingHour": "4 PM"
-  },
-  {
-    "name": "Commercial Enterprise 10",
-    "type": "m",
-    "address": {
-      "street": "Gletti",
-      "postalCode": "3154",
-      "state": "Bern",
-      "country": "Switzerland"
-    },
-    "openingHour": "8 AM",
-    "closingHour": "6 PM"
+    "closingHour": "05:30 PM"
   }
 ]

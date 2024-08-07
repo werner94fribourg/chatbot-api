@@ -1,0 +1,461 @@
+id;businessId;username;rating;comment
+1;1;JaneDoe101;4;Great coffee and cozy ambiance. Perfect for a morning break.
+2;2;AdventureLover;5;Excellent range of products for all outdoor adventures. Highly recommend!
+3;3;PetalPower;5;Beautiful arrangements and friendly service. Made my day!
+4;4;Bookworm23;3;Good collection of books but the store could use better lighting.
+5;5;Fashionista;4;Trendy clothes and helpful staff. Will visit again.
+6;6;BreadLover;5;The best bakery in town. Fresh and delicious every time!
+7;7;Shopaholic;4;Great selection of groceries. Could use more organic options.
+8;8;Foodie;5;Amazing delicacies and fantastic service. A hidden gem!
+9;9;TechGuru;3;Good range of electronics, but the prices are a bit high.
+10;10;ArtLover88;4;Beautiful art pieces and a serene environment. Worth a visit.
+11;11;Reader123;5;Excellent bookstore with a vast collection. Love this place!
+12;12;GroceryGuru;4;Convenient location and friendly staff. Could be better stocked.
+13;13;CafeChill;4;Nice café with great coffee. A bit crowded though.
+14;14;BakeryFan;4;Delicious pastries and bread. A bit pricey but worth it.
+15;15;FashionFreak;5;Fantastic clothing store with unique items. Highly recommend!
+16;16;GiftGiver;3;Nice selection of gifts, but the staff could be more attentive.
+17;17;Handyman;4;Good range of hardware products and reasonable prices.
+18;18;GadgetGeek;5;Amazing electronics store with knowledgeable staff.
+19;19;FlowerFanatic;4;Lovely flower arrangements and prompt service.
+20;20;ToyCollector;5;Great toy store with a wide variety of options. My kid loves it!
+21;1;john_doe_87;5;Amazing coffee and friendly staff. A great place to start the day!
+22;10;art_lover_22;4;The art gallery had a wonderful collection. Could use better lighting though.
+23;23;cafe_addict_45;2;The coffee was cold, and the service was slow. Not coming back.
+24;37;shopper_99;3;Decent selection but everything felt overpriced.
+25;5;fashionista_89;4;Great boutique with unique clothing. A bit on the pricey side.
+26;40;wino_34;5;Fantastic selection of wines. The staff is very knowledgeable.
+27;15;trendsetter45;4;Trendy fashion with good quality. Highly recommend.
+28;72;bookworm_54;5;Cozy bookstore with a great collection. Perfect for book lovers.
+29;45;nature_lover_23;4;Good range of outdoor equipment. Staff could be more helpful.
+30;31;foodie_adventurer;5;Delicious food and a warm ambiance. Absolutely loved it!
+31;2;hiker_72;4;Quality sports equipment. Wish they had more variety.
+32;17;handyman_56;3;Decent hardware store but lacks some essentials.
+33;83;tech_geek_88;5;Fantastic selection of the latest tech gadgets. Highly recommend.
+34;24;market_goer_78;4;Good variety in the market but can get crowded.
+35;8;foodie_frank;5;Delicious delicacies that you can't find anywhere else!
+36;62;shopper_lucy;3;Mediocre shopping experience. Nothing stood out.
+37;88;foodie_sara;5;Amazing food and great atmosphere at this restaurant!
+38;58;fashion_guru_21;2;Not very trendy and quite overpriced.
+39;100;auto_guy;4;Good auto services, but the waiting time was long.
+40;50;fun_seeker;5;Best waterpark experience ever! So much fun!
+41;3;FlowerLover92;5;Greifensee Flowers has the most exotic blooms I've ever seen. Perfect for any occasion!
+42;5;Fashionista101;4;Le Paquier Boutique has a great selection of clothes, but I wish they had more sizes.
+43;7;HealthyEater;3;Surrein Groceries has fresh produce, but the prices are a bit high.
+44;12;GroceryGuru;4;Engelberg Groceries is a nice store with friendly staff. I found everything I needed.
+45;14;BakeryBuff;5;Saxon Bakery's pastries are absolutely delicious! Highly recommend the croissants.
+46;16;GiftGiver77;4;Sta. Maria Val Müstair Gifts has unique items that are perfect for gifts.
+47;18;TechGeek;2;Sudern Electronics has decent products, but the customer service needs improvement.
+48;20;ToyLover;5;Gadmen Toys has an amazing selection of toys for kids of all ages. My children loved it.
+49;23;CoffeeLover;4;Belpberg Cafe has great coffee and a cozy atmosphere. Perfect for a relaxing afternoon.
+50;27;BloomFan;5;Ried-Brig Florist created a stunning bouquet for my anniversary. Will definitely return!
+51;29;ArtEnthusiast;3;Furna Art Gallery has beautiful art, but I found the prices to be on the higher side.
+52;32;SpaLover01;4;Zurzach Spa is a fantastic place to unwind. The massages are heavenly!
+53;34;OutdoorFanatic;5;Steg Sports has everything you need for your outdoor adventures. Highly recommend!
+54;38;DIYMaster;4;Ramboden Hardware has a wide range of tools and supplies. Very convenient!
+55;41;ClearVision;3;Optical Oasis has a good range of glasses, but the wait time for fitting was long.
+56;43;CarLover;2;Mountain Motors' service was subpar. Had to wait for hours for a simple repair.
+57;46;CafeAddict;4;Oasis Cafe has a nice ambiance and delicious coffee. A great spot to meet friends.
+58;50;WaterFun;5;Water World Wonders is an exciting place for families. The kids had a blast!
+59;52;GroceryGirl;4;Paradies Mart is well-stocked with a variety of items. Clean and organized store.
+60;54;BreadLover;5;Lignieres Bakery's bread is to die for. Fresh and tasty!
+61;1;CoffeeLover72;5;Amazing coffee and a cozy atmosphere!
+62;2;AdrenalineJunkie;4;Great selection of climbing gear, but the prices are a bit high.
+63;3;FloralFanatic;5;Beautiful flowers and very friendly staff!
+64;4;BookwormBetsy;4;A nice collection of books, but I wish they had a bigger sci-fi section.
+65;5;Fashionista88;5;Unique clothes and accessories, love this boutique!
+66;6;BreadLover;5;The best bakery in town. Their croissants are to die for!
+67;7;SuperSaver;3;Good selection but the prices are average.
+68;8;Foodie45;4;Great variety of gourmet items, but a bit pricey.
+69;9;TechGuru;5;Excellent service and knowledgeable staff!
+70;10;ArtLover;4;A beautiful art gallery with impressive collections.
+71;11;BookNerd;5;A hidden gem for book lovers!
+72;12;GroceryGuy;3;Decent selection, but I'd like to see more organic products.
+73;13;CafeConnoisseur;4;Lovely café with a great ambiance.
+74;14;PastryPerfectionist;5;Delicious pastries and friendly staff!
+75;15;StyleSeeker;4;Fashion-forward clothes, but sometimes hard to find what I need.
+76;16;GiftGiver;5;Perfect place to buy unique gifts!
+77;17;DIYDynamo;3;Good tools, but the customer service could be improved.
+78;18;TechTinkerer;4;Great selection of electronics, but the prices are a bit high.
+79;19;FlowerFan;5;Beautiful arrangements and very fresh flowers!
+80;20;ToyTester;4;A good variety of toys, but some are quite expensive.
+81;1;CafeLover1987;5;Absolutely the perfect spot for morning coffee. The ambiance is cozy and the coffee is top-notch.
+82;2;MountainJunkie;4;Great selection of gear for all outdoor activities. Prices are a bit high, but the quality is fantastic.
+83;3;FlowerFan;5;Such a beautiful selection of flowers. The bouquets are always fresh and artistically arranged.
+84;4;BookWorm1982;4;A lovely bookstore with a great collection of novels. Staff is friendly and helpful.
+85;5;Fashionista;3;Decent collection of clothing, but the prices are not very competitive.
+86;6;BreadLover123;5;Best bakery in town! Their pastries are to die for.
+87;7;GroceryGuru;4;This grocery store has a good range of products, but it can get very crowded.
+88;8;DelicacyLover;5;Amazing selection of delicacies. The cheese and wine selection is superb.
+89;9;TechSavvy;4;Good place for electronics. The staff is knowledgeable and helpful.
+90;10;ArtLover;5;A wonderful art gallery showcasing local artists. A must-visit for art enthusiasts.
+91;11;BookBuff;3;Nice little bookstore but the collection is quite limited.
+92;12;HealthyEater;4;Great variety of fresh produce. Prices are fair and staff is friendly.
+93;13;CoffeeAddict;5;Best place for a relaxing coffee break. Their pastries are also very tasty.
+94;14;PastryPro;4;Lovely bakery with excellent bread. They close a bit early though.
+95;15;FashionForward;4;Trendy fashion store with a good range of clothing items. Prices are reasonable.
+96;16;GiftHunter;5;A charming gift shop with unique and interesting items. Perfect for finding something special.
+97;17;DIYFan;3;Decent hardware store but can be a bit better stocked.
+98;18;TechNerd;4;Wide variety of electronics. Prices are a bit high, but they have a good return policy.
+99;19;GardenerGal;5;Excellent selection of flowers and plants. Their customer service is fantastic.
+100;20;ToyCollector;4;Great toy store with a wide range of products. Perfect for finding gifts for kids.
+101;1;CafeLover92;5;Sunrise Cafe is my favorite place to unwind with a cup of coffee. The ambiance is fantastic!
+102;2;MountainMan;4;Great variety of sports equipment at Mountain Gear. Perfect for all my hiking needs.
+103;3;FlowerChild;5;Greifensee Flowers has the freshest blooms in town. Always a pleasure shopping here!
+104;4;BookWorm78;4;Alpine Books has an excellent collection of rare books. A book lover's paradise!
+105;5;Fashionista;3;Le Paquier Boutique offers trendy clothing, but the prices are a bit steep.
+106;6;BreadLover;5;The baked goods at Beinwil Bakery are simply heavenly. Fresh and delicious!
+107;7;GroceryGuru;4;Surrein Groceries has a great selection of products. Convenient for everyday shopping.
+108;8;Foodie;5;Schmitten Delicatessen offers high-quality gourmet foods. A true culinary delight!
+109;9;TechSavvy;4;Vermol's Electronics has a wide range of gadgets. Helpful staff and good prices.
+110;10;ArtLover;3;Meiringen Art Gallery has some interesting pieces, but the gallery is a bit small.
+111;11;BookReader;4;Habkern Books is a cozy little bookstore with a great selection. Love it!
+112;12;GroceryGiant;5;Engelberg Groceries is always well-stocked and clean. My go-to grocery store.
+113;13;CafeAddict;4;Hinterrhein Café serves excellent coffee, but the seating area could be more spacious.
+114;14;PastryPal;5;Saxon Bakery's pastries are to die for! Highly recommend the croissants.
+115;15;FashionGuru;4;Bürglen Fashion offers beautiful clothing. A bit pricey but worth it for the quality.
+116;16;GiftHunter;5;Sta. Maria Val Müstair Gifts has unique items. Perfect for finding special gifts.
+117;17;DIYDude;4;Frasco Hardware has a good range of tools. Staff is knowledgeable and helpful.
+118;18;GadgetGal;5;Sudern Electronics Store has everything you need! Great customer service.
+119;19;FlowerFan;4;Schongau Flowers has a lovely selection. Perfect for every occasion.
+120;20;ToyLover;5;Gadmen Toys is a wonderland for kids. Lots of fun and educational toys.
+121;1;happy_coffee_lover;5;The best coffee in town! Friendly staff and cozy atmosphere.
+122;2;mountain_hiker;4;Great selection of hiking gear. Prices could be better.
+123;3;flower_fanatic;5;Beautiful arrangements and excellent customer service.
+124;4;bookworm_123;4;Lovely bookstore with a wide range of books. A bit pricey though.
+125;5;fashionista_21;5;Unique clothing items and very helpful staff!
+126;6;bread_buddy;5;Freshly baked bread and pastries. Highly recommended!
+127;7;shopaholic;4;Good variety of groceries. Sometimes a bit crowded.
+128;8;foodie_delight;5;Fantastic selection of gourmet foods. Will visit again!
+129;9;tech_savvy;3;Decent electronics store. Could improve their product range.
+130;10;art_lover;5;Amazing art gallery with stunning pieces. A must-visit!
+131;11;literature_fan;4;Great selection of books, but the place is a bit small.
+132;12;grocery_guru;4;Nice and clean grocery store with friendly staff.
+133;13;coffee_craze;5;Delightful café with great coffee and snacks.
+134;14;bake_me_happy;4;Tasty baked goods, but sometimes runs out of popular items.
+135;15;fashion_forward;5;Trendy clothing and excellent customer service.
+136;16;gift_enthusiast;5;Perfect place to find unique gifts. Highly recommend!
+137;17;diy_lover;3;Good variety of hardware, but some items are overpriced.
+138;18;tech_freak;4;Nice electronics store with friendly staff. Could improve stock.
+139;19;flower_power;5;Gorgeous flowers and excellent service. Will be back!
+140;20;toy_hunter;5;Amazing toy store with a great selection. My kids love it!
+141;1;john_doe;5;The best café in Geneva! Excellent service and delicious pastries.
+142;2;mountain_lover;4;Great selection of equipment for mountain adventures. Staff is knowledgeable and friendly.
+143;3;flower_fanatic;5;Beautiful arrangements and friendly service. Highly recommend!
+144;4;bookworm23;4;Nice collection of books with a cozy atmosphere. Could use more seating.
+145;5;fashionista91;4;Trendy and chic clothing. A bit pricey but worth it.
+146;6;bread_lover;5;Amazing bread and pastries. Friendly staff and cozy ambiance.
+147;7;shopper98;4;Good variety of groceries. Prices are reasonable.
+148;8;foodie101;5;Excellent selection of gourmet food items. Loved the cheeses!
+149;9;tech_guy;3;Decent selection of electronics. Service could be better.
+150;10;art_enthusiast;5;Beautiful art pieces and a serene environment. A must-visit for art lovers.
+151;11;booklover;4;Great variety of books. Friendly staff. A bit crowded on weekends.
+152;12;grocery_gal;5;Wide selection of fresh produce. Very clean and organized.
+153;13;cafe_addict;5;Charming café with delicious coffee and pastries.
+154;14;baker_buddy;4;Great bakery with a limited menu. The croissants are to die for!
+155;15;fashion_fan;5;Stylish clothing and very helpful staff. Loved the collection!
+156;16;gift_hunter;4;Unique gift items, perfect for special occasions. Wish there were more options.
+157;17;diy_guy;3;Decent selection of tools. Prices are on the higher end.
+158;18;tech_wiz;4;Good variety of electronics. Knowledgeable staff.
+159;19;plant_lover;5;Beautiful flowers and arrangements. Reasonably priced.
+160;20;toy_enthusiast;4;Great selection of toys. Friendly staff and reasonable prices.
+161;1;AliceLovesCoffee;5;Sunrise Cafe is my favorite spot in Geneva! Great coffee and pastries.
+162;2;MountainClimber99;4;Mountain Gear has quality equipment, but a bit pricey.
+163;3;FlowerFan123;5;Amazing flower arrangements from Greifensee Flowers. Highly recommend!
+164;4;BookWorm85;5;Alpine Books has a fantastic collection of books. Excellent service!
+165;5;Fashionista;4;Le Paquier Boutique has stylish clothing. Wish they had more variety.
+166;6;BreadLover;5;Best bakery in Solothurn! Beinwil Bakery's bread is always fresh.
+167;7;GroceryGuru;3;Surrein Groceries has the essentials but limited selection.
+168;8;Foodie66;4;Schmitten Delicatessen offers great gourmet products.
+169;9;TechSavvy;5;Vermol's Electronics has the latest gadgets at good prices.
+170;10;ArtLover;4;Meiringen Art Gallery showcases beautiful art pieces.
+171;11;BookAddict;5;Habkern Books has a cozy atmosphere and a great selection of books.
+172;12;Shopper01;3;Engelberg Groceries is okay, but not my favorite store.
+173;13;CafeLover;5;Hinterrhein Café serves the best coffee in Graubunden.
+174;14;BakeryBliss;4;Saxon Bakery has great baked goods, though a bit pricey.
+175;15;FashionIcon;5;Bürglen Fashion has trendy clothes and excellent customer service.
+176;16;GiftGiver;4;Sta. Maria Val Müstair Gifts has unique and charming gifts.
+177;17;DIYGuy;5;Frasco Hardware has everything I need for my projects.
+178;18;GadgetGeek;4;Sudern Electronics has a good selection of electronics.
+179;19;FlowerLover;5;Schongau Flowers creates beautiful floral arrangements!
+180;20;ToyFanatic;5;Gadmen Toys has the best selection of toys for kids.
+181;1;happyDiner2023;5;Great coffee and pastries! The ambiance is very relaxing.
+182;2;mountainMan;4;Good selection of gear but a bit pricey.
+183;3;flowerLover;5;Beautiful fresh flowers and lovely arrangements!
+184;4;bookWorm;4;Nice collection of books but limited seating area.
+185;5;fashionista2023;3;Trendy clothes but the customer service could be better.
+186;6;breadLover;5;Best bakery in town! Their croissants are to die for.
+187;7;groceryGuru;4;Good selection of groceries but a bit busy during weekends.
+188;8;foodie2023;5;Amazing deli with high-quality products. Highly recommend!
+189;9;techSavvy;3;Discount electronics but sometimes they don't have the latest models.
+190;10;artLover;4;Beautiful gallery with some unique pieces. Worth a visit.
+191;11;chapterOne;5;Cozy place with a great selection of books. Will come back.
+192;12;groceryGal;4;Fresh produce and friendly staff but a bit pricey.
+193;13;cafeLover33;5;Lovely little café with great coffee and cakes!
+194;14;breadFanatic;4;Charming bakery with delicious bread, but a bit hidden.
+195;15;shopaholic;3;Decent fashion collection but sizes are limited.
+196;16;giftGiver;5;Fantastic gift shop with unique items. Perfect for finding special presents.
+197;17;toolTime;4;Well-stocked hardware store, but some items are expensive.
+198;18;techEnthusiast;4;Good selection of electronics but limited brands.
+199;19;flowerFan;5;Beautiful flower arrangements and friendly service.
+200;20;toyLover;3;Nice selection of toys but the store is a bit cramped.
+201;1;CafeLover42;5;The best coffee in town! Sunrise Cafe never disappoints.
+202;2;MountainMan88;4;Great selection of gear, although a bit pricey.
+203;3;FlowerFan;5;Beautiful arrangements and super friendly staff at Greifensee Flowers!
+204;4;Bookworm;3;Alpine Books had a good collection but it was a bit disorganized.
+205;5;Shopaholic24;4;Le Paquier Boutique has cute clothes, but some items were out of stock.
+206;6;BreadBaker;5;The fresh bread at Beinwil Bakery is to die for!
+207;7;GroceryGuru;4;Good selection at Surrein Groceries, but parking can be a hassle.
+208;8;DelicatessenDevotee;5;The best delicatessen in town! Loved the cheese selection.
+209;9;TechEnthusiast;2;Vermol's Electronics needs to improve their customer service.
+210;10;ArtLover99;5;A wonderful experience at the Meiringen Art Gallery. Highly recommend!
+211;11;BookNerd;4;Habkern Books has a great selection of classics.
+212;12;HealthyLiving;3;Engelberg Groceries is good but can have better prices.
+213;13;CafeConnoisseur;4;Hinterrhein Café has great coffee, but the seating is limited.
+214;14;BakeryLover;5;Saxon Bakery makes amazing pastries!
+215;15;Fashionista;4;Bürglen Fashion has trendy clothes but it's a bit expensive.
+216;16;GiftHunter;5;Great unique gifts at Sta. Maria Val Müstair Gifts shop!
+217;17;DIYDude;3;Frasco Hardware is decent but needs more variety.
+218;18;TechSavvy;4;Sudern Electronics is pretty good but the staff need better training.
+219;19;FlowerChild;5;Schongau Flowers makes beautiful bouquets every time.
+220;20;ToyCollector;4;Gadmen Toys has a broad variety, but some toys are overpriced.
+221;1;coffee_lover;5;The best coffee in Geneva! The ambiance is great too.
+222;2;mountain_hiker;4;Good selection of gear, but a bit pricey.
+223;3;flower_fan;5;Beautiful flower arrangements! Highly recommend.
+224;4;bookworm123;4;Great selection of books, but the store is a bit small.
+225;5;fashionista;5;Fantastic boutique with unique clothing items.
+226;6;breadlover;5;Delicious bread and pastries! My favorite bakery.
+227;7;grocery_guru;4;Wide variety of products, but it can get crowded.
+228;8;deli_devotee;5;Excellent delicatessen with high-quality items.
+229;9;tech_savvy;3;Good electronics, but the customer service could be better.
+230;10;art_enthusiast;4;Lovely art gallery, but limited collection.
+231;11;book_buddy;5;A hidden gem for book lovers!
+232;12;grocery_guy;4;Good variety, but parking is a hassle.
+233;13;cafe_crusader;5;Love this cozy cafe with great coffee and snacks.
+234;14;bakery_buff;3;Good bakery, but the hours are too limited.
+235;15;fashion_fan;4;Nice clothing store, but a bit expensive.
+236;16;gift_guru;5;Perfect place for finding unique gifts.
+237;17;hardware_hank;4;Good selection of hardware, but check out is slow.
+238;18;tech_tinker;3;Average electronics store with average service.
+239;19;floral_fanatic;5;Best florist in town! Fresh and beautiful flowers.
+240;20;toy_trooper;4;Great toy store with a wide selection.
+241;1;coffee_lover;5;Amazing coffee and wonderful ambiance. My daily go-to place!
+242;2;mountain_goat;4;Great selection of gear, but a bit pricey.
+243;3;petal_power;5;Beautiful flower arrangements and friendly staff!
+244;4;bookworm;3;Nice collection but could use more variety.
+245;5;fashion_diva;4;Trendy clothes, but the sizes run small.
+246;6;bakery_buff;5;Best pastries in town! Highly recommend.
+247;7;grocery_guru;4;Wide selection of products and fresh produce.
+248;8;delightful_deli;5;Tasty and unique delicacies. A hidden gem!
+249;9;tech_student;3;Good range of electronics, but customer service needs improvement.
+250;10;artsy_ana;5;Incredible gallery with stunning pieces.
+251;11;avid_reader;4;Cozy bookstore with a great selection.
+252;12;grocer_gal;5;Fantastic grocery store with literally everything you need!
+253;13;cafe_crawler;4;Lovely café with delicious pastries. Will visit again.
+254;14;morning_bread;4;Great bread and friendly staff.
+255;15;style_seeker;3;Fashionable clothing but customer service could be better.
+256;16;gift_giver;5;Perfect place to find unique gifts.
+257;17;handy_harry;3;Good hardware store but lacks variety.
+258;18;tech_fanatic;4;Great selection of electronics and gadgets.
+259;19;flower_fan;4;Beautiful flowers but a bit expensive.
+260;20;toy_tester;5;Fantastic toy store with a great variety for kids.
+261;1;CafeLover92;5;The coffee at Sunrise Cafe is the best in town! Love the ambiance too.
+262;2;HikerMan21;4;Great selection of hiking gear at Mountain Gear. Staff was very helpful.
+263;3;FlowerFan;3;Greifensee Flowers has beautiful arrangements but a bit overpriced.
+264;4;Bookworm85;5;Alpine Books has a great collection of rare books. Found exactly what I was looking for.
+265;5;Fashionista97;4;Le Paquier Boutique has trendy clothes. The staff is friendly and helpful.
+266;6;BreadLover;5;Beinwil Bakery has the best pastries! Highly recommend the croissants.
+267;7;GroceryGuru;3;Surrein Groceries is convenient but the selection is limited.
+268;8;Foodie101;4;Schmitten Delicatessen has a great variety of cheeses. Perfect for a gourmet treat.
+269;9;TechSavvy;5;Vermol's Electronics has the latest gadgets. Excellent customer service.
+270;10;ArtLover;4;Meiringen Art Gallery has some stunning pieces. Worth a visit.
+271;11;BookAddict;5;Habkern Books is a haven for book lovers. Great selection and cozy atmosphere.
+272;12;ShopSmart;3;Engelberg Groceries is okay for basic needs but lacks variety.
+273;13;CafeConnoisseur;4;Hinterrhein Café has a charming vibe. Coffee is good but a bit pricey.
+274;14;PastryLover;5;Saxon Bakery's pastries are to die for! A must-visit for anyone with a sweet tooth.
+275;15;FashionGuru;3;Bürglen Fashion has some nice items but the prices are a bit high.
+276;16;GiftHunter;4;Sta. Maria Val Müstair Gifts has unique gifts. Found the perfect souvenir.
+277;17;DIYEnthusiast;5;Frasco Hardware has all the tools I need. Great service and advice.
+278;18;TechExplorer;3;Sudern Electronics has a good range but the store feels cramped.
+279;19;FlowerFanatic;4;Schongau Flowers has lovely bouquets but slightly overpriced.
+280;20;ToyLover;5;Gadmen Toys has a fantastic selection. Perfect for finding gifts for kids.
+281;1;coffeeLover88;5;Sunrise Cafe has the best cappuccinos! The ambiance is perfect for a morning coffee.
+282;2;outdoorFanatic;4;Mountain Gear has a great selection of equipment. Slightly pricey but worth it.
+283;3;flowerGirl;5;Greifensee Flowers delivers the freshest flowers. Always beautifully arranged.
+284;4;bookworm;5;Alpine Books has a fantastic collection of rare books. A must-visit for any bibliophile.
+285;5;fashionista;4;Le Paquier Boutique has trendy clothing options. Customer service could be better.
+286;6;breadLover;5;Beinwil Bakery's pastries are simply divine. Always fresh and delicious.
+287;7;groceryGuru;3;Surrein Groceries has a good variety but the store layout is confusing.
+288;8;foodie;4;Schmitten Delicatessen offers high-quality deli items. A bit expensive though.
+289;9;techGeek;5;Vermol's Electronics stocks the latest gadgets. Staff is very knowledgeable.
+290;10;artLover123;5;Meiringen Art Gallery has an incredible collection of local art. Definitely worth a visit.
+291;11;avidReader;4;Habkern Books has a quaint and cozy atmosphere. Prices are reasonable.
+292;12;groceryGal;4;Engelberg Groceries has fresh produce and fair prices. Friendly staff.
+293;13;cafeHopper;3;Hinterrhein Café is nice, but service can be slow during peak hours.
+294;14;bakeryFan;5;Saxon Bakery's bread is top-notch. Always look forward to their new offers.
+295;15;shopperGirl;5;Bürglen Fashion has a great selection of clothes and helpful staff.
+296;16;giftGiver;4;Sta. Maria Val Müstair Gifts has unique items. Perfect for special occasions.
+297;17;DIYer;4;Frasco Hardware has most of the tools I need. Could use more variety.
+298;18;techyTina;5;Sudern Electronics always provides excellent customer service and knowledgeable staff.
+299;19;flowerFan;5;Schongau Flowers has the best floral arrangements. Highly recommend!
+300;20;toyTester;4;Gadmen Toys has a good range of toys. Some items are a bit overpriced.
+301;1;AliceW123;4;Great coffee and ambiance, but a bit crowded during peak hours.
+302;2;MountainMan99;5;Amazing selection of equipment! Staff is very knowledgeable.
+303;3;FlowerLover;3;Beautiful flowers but a bit overpriced.
+304;4;Reader88;5;Cozy little bookstore with a fantastic selection of novels.
+305;5;FashionStar;4;Trendy clothes and friendly staff. Loved it!
+306;6;BreadLover22;5;The best bakery in town! Fresh bread every morning.
+307;7;Shopper5;4;Great selection and reasonable prices.
+308;8;FoodCritic23;3;Good quality food but not many options for vegetarians.
+309;9;TechGuru;4;Great electronics store with helpful staff.
+310;10;ArtFan89;5;Amazing art pieces! A must-visit for art lovers.
+311;11;Bookworm;4;Nice collection of books, but the place is a bit small.
+312;12;GroceryGuru;5;Fresh produce and friendly service.
+313;13;CaféCritic;3;Nice café but the service was slow.
+314;14;PastryLover;5;Delicious pastries and excellent customer service.
+315;15;Fashionista;4;Trendy fashion items but a bit pricey.
+316;16;GiftGuru;5;Perfect place for unique gifts!
+317;17;DIYer;4;Good selection of tools, friendly staff.
+318;18;ElectroFan;3;Decent electronics store, but could use more variety.
+319;19;FlowerFanatic;4;Lovely flowers, reasonable prices.
+320;20;ToyLover;5;Great toy store! My kids loved it.
+321;1;CoffeeLover92;5;Absolutely love this place! Best coffee in town.
+322;2;HikerJoe;4;Great selection of gear, a bit pricey though.
+323;3;FlowerPower;3;Nice flowers, but the arrangements could be better.
+324;4;BookWorm85;5;Lovely bookstore with a cozy atmosphere.
+325;5;Fashionista;4;Trendy clothing, a bit expensive but worth it.
+326;6;BreadLover;5;Best bakery in town. Fresh and delicious!
+327;7;GroceryGuru;4;Good variety of products, but can be crowded.
+328;8;Foodie123;5;Amazing delicatessen with unique items.
+329;9;TechSavvy;2;Limited selection of electronics and high prices.
+330;10;ArtLover;5;Beautiful art gallery with stunning exhibitions.
+331;11;BookNerd;4;Great selection of books, friendly staff.
+332;12;GroceryFan;3;Average grocery store, nothing special.
+333;13;CafeLover;4;Nice cafe with decent coffee and pastries.
+334;14;BakeryFan;5;Excellent bakery with fantastic bread.
+335;15;FashionGuru;3;Okay clothing store, nothing extraordinary.
+336;16;GiftSeeker;4;Nice gift shop with unique items.
+337;17;HandyMan;3;Decent hardware store, but could have more variety.
+338;18;TechEnthusiast;4;Good electronics store with helpful staff.
+339;19;FlowerFanatic;5;Beautiful flowers and excellent service.
+340;20;ToyLover;4;Great toy store with a wide variety of toys.
+341;1;CoffeeLover92;5;Best coffee in town! The ambiance is fantastic. Highly recommended.
+342;2;HikerMike;4;Great selection of gear. Staff could be more knowledgeable.
+343;3;PlantMom;5;Beautiful flowers and arrangements. Wonderful service!
+344;4;Bookworm88;3;Good book selection but the store is a bit cramped.
+345;5;Fashionista01;4;Trendy clothes at reasonable prices. I will be back.
+346;6;BreadLover;5;Delicious bread and pastries. Highly recommended bakery.
+347;7;ShopperJane;3;Good variety but some items are overpriced.
+348;8;GourmetGuru;5;Amazing selection of gourmet foods. Love this place!
+349;9;TechGuy;4;Good electronics store. Wish they had more brands.
+350;10;ArtLover85;5;Beautiful art pieces. A must-visit for art enthusiasts.
+351;11;BookAddict;4;Nice selection of books. Could use more seating areas.
+352;12;GroceryGuru;5;Great grocery store with fresh produce. Excellent service.
+353;13;CafeHopper;4;Nice cafe with good coffee. The pastries could be better.
+354;14;BreadFan;5;Best bakery in the area. Delicious and fresh every time.
+355;15;FashionFreak;3;Good collection but found it a bit pricey.
+356;16;GiftHunter;4;Lovely gift shop with unique items. Will come back.
+357;17;DIYDave;4;Great hardware store. Found everything I needed.
+358;18;TechyTom;5;Excellent electronics store with helpful staff.
+359;19;FlowerFanatic;4;Beautiful flowers. Service could be faster.
+360;20;ToyFan;5;Fantastic toy store! My kids love it here.
+361;1;ChocoLover;5;Loved the ambiance and the coffee was fantastic!
+362;2;HikerMike;4;Great selection of gear, but the prices are a bit high.
+363;3;FlowerFanatic;5;Beautiful arrangements and friendly staff!
+364;4;ReaderJane;3;Nice bookstore, but limited selection.
+365;5;Fashionista21;4;Trendy clothes and helpful staff.
+366;6;BreadLover82;5;Best bakery in town! Fresh and delicious.
+367;7;GroceryGuru;2;Not a lot of variety in products.
+368;8;DelicacyDiva;4;Quality delicacies but a bit pricey.
+369;9;GadgetGuy;3;Decent electronics store, but customer service could be better.
+370;10;ArtLover;5;Beautiful art pieces, loved my visit!
+371;11;BookWorm123;4;Cozy bookstore with a good selection.
+372;12;ShopperSue;5;Great grocery store with friendly staff!
+373;13;CafeLover99;4;Lovely café with a nice atmosphere.
+374;14;BakeryBuff;3;Good bakery but limited opening hours.
+375;15;FashionFreak;4;Stylish clothing options, will visit again!
+376;16;GiftQueen;5;Perfect place to find unique gifts!
+377;17;DIYDean;3;Good selection, but the prices are high.
+378;18;TechyTom;4;Great place for tech gadgets.
+379;19;FlowerFan;5;Beautiful flowers and great customer service.
+380;20;ToyLover;4;Awesome toy store with a wide variety of toys.
+381;1;User123;5;Great coffee and ambiance! Will visit again.
+382;2;MountainLover;4;Good selection of gear, but a bit pricey.
+383;3;FlowerFan;5;Beautiful flowers and excellent service!
+384;4;Bookworm90;5;A hidden gem for book lovers. Highly recommend.
+385;5;Fashionista;3;Nice boutique, but the sizes are limited.
+386;6;BreadLover;4;Freshly baked goods. The croissants are a must-try!
+387;7;Shopaholic;4;Convenient location and good variety of products.
+388;8;Foodie123;5;Delicious treats and a friendly atmosphere.
+389;9;TechGuru;3;Good range of electronics, but staff could be more helpful.
+390;10;ArtLover;5;Wonderful art pieces and knowledgeable staff.
+391;11;Reader123;5;Cozy bookstore with a great selection.
+392;12;GroceryGuru;4;Well-stocked and reasonably priced groceries.
+393;13;CoffeeLover;4;Nice place for a coffee break. Good pastries.
+394;14;BreadFan;3;Good bakery, but it closes too early.
+395;15;FashionGuru;4;Trendy clothing but a bit expensive.
+396;16;GiftSeeker;5;Perfect place for unique gifts.
+397;17;DIYer;3;Decent hardware store but lacks variety.
+398;18;GadgetGeek;4;Good selection of electronics at fair prices.
+399;19;FlowerFanatic;5;Lovely flowers and helpful staff.
+400;20;ToyLover;5;Great toy store with a wide range of products.
+401;1;coffeeLover123;5;Sunrise Cafe is my favorite spot! The coffee is superb and the ambiance is relaxing.
+402;2;hikerDude;4;Mountain Gear has a great selection of equipment. The staff could be a bit friendlier though.
+403;3;flowerFan;5;Greifensee Flowers always has the freshest flowers. I love shopping here!
+404;4;bookworm29;4;Alpine Books has a wide variety of books. I always find something interesting.
+405;5;fashionista;3;Le Paquier Boutique has trendy clothes, but the prices are a bit high.
+406;6;breadLover;5;Beinwil Bakery has the best bread in town. Always fresh and delicious!
+407;7;shopper101;4;Surrein Groceries has a good selection, but sometimes the shelves are not well-stocked.
+408;8;gourmetGuy;5;Schmitten Delicatessen offers high-quality products. I love their cheese selection.
+409;9;techSavvy;4;Vermol's Electronics has all the latest gadgets. Their customer service could improve, though.
+410;10;artLover;5;Meiringen Art Gallery always showcases beautiful artworks. It's a great place to visit.
+411;11;pageTurner;4;Habkern Books is a cozy bookstore with a nice selection. I love their reading nooks.
+412;12;groceryGuru;3;Engelberg Groceries is okay, but I've seen better supermarkets.
+413;13;cafeAddict;5;Hinterrhein Café has great coffee and pastries. It's my go-to spot!
+414;14;earlyBird;4;Saxon Bakery has delicious baked goods. They could improve the variety a bit.
+415;15;fashionForward;4;Bürglen Fashion has chic and stylish clothes. The service is decent too.
+416;16;giftHunter;5;Sta. Maria Val Müstair Gifts is the perfect place to find unique gifts. Love it!
+417;17;handyMan;3;Frasco Hardware is average. The store could use a bit more organization.
+418;18;techie;4;Sudern Electronics Store has a good range of products. The staff is helpful.
+419;19;flowerPower;5;Schongau Flowers is my favorite florist. They have the freshest and most beautiful flowers.
+420;20;toyLover;4;Gadmen Toys has a great selection of toys. My kids love coming here.
+421;1;JohnDoe123;4;Great atmosphere, loved the coffee! Will visit again.
+422;2;MountainMan;5;Excellent gear and friendly staff. Highly recommended for hiking enthusiasts.
+423;3;FlowerLover;3;Good selection of flowers, but a bit pricey.
+424;4;Bookworm;5;Amazing collection of books, cozy place to read!
+425;5;Fashionista;4;Trendy clothing but limited sizes available.
+426;6;BreadLover22;5;The best bakery in town! Fresh bread every day.
+427;7;Shopper123;3;Decent grocery selection but could improve on fresh produce.
+428;8;FoodieGal;5;Delicious delicacies, will definitely return!
+429;9;TechGuru;4;Good range of electronics, knowledgeable staff.
+430;10;ArtLover;5;Beautiful art pieces, a hidden gem for art enthusiasts.
+431;11;ReaderGal;4;Cozy bookstore with a nice selection of books.
+432;12;GroceryGuru;3;Convenient location but a bit expensive.
+433;13;CafeLover;4;Lovely little cafe with great coffee and snacks.
+434;14;BreadFan;5;Amazing bakery, fantastic pastries.
+435;15;FashionablyLate;3;Nice fashion but a bit overpriced.
+436;16;GiftGiver;4;Great selection of gifts, lovely service.
+437;17;HardwareExpert;5;Affordable and durable hardware supplies.
+438;18;ElectroFanatic;4;Good electronics store, knowledgeable staff.
+439;19;FlowerFan;5;Beautiful arrangements and friendly service.
+440;20;ToyLover;4;Great toy shop, kids loved it!
+441;1;coffee_lover89;5;Sunrise Cafe has the best coffee in town! The ambiance is very relaxing.
+442;2;mountain_man;4;Great selection of gear for hiking and mountaineering. Prices are reasonable too.
+443;3;flower_fanatic;5;Beautiful flowers and exceptional customer service at Greifensee Flowers.
+444;4;bookworm34;3;Decent selection of books, but the store is a bit small.
+445;5;fashionista22;4;Lovely boutique with unique clothing. A bit pricey but worth it.
+446;6;bakery_enthusiast;5;The pastries at Beinwil Bakery are to die for! Fresh and delicious.
+447;7;grocery_guru;4;Good selection of groceries at Surrein Groceries. Friendly staff.
+448;8;deli_dude;5;Amazing variety of cheeses and cured meats. Highly recommend Schmitten Delicatessen.
+449;9;tech_geek;3;Decent electronics but the prices are a bit on the higher side.
+450;10;art_lover;5;Beautiful art pieces and a pleasant visit at the Meiringen Art Gallery.
+451;11;avid_reader91;4;Habkern Books has a great collection of literature and helpful staff.
+452;12;shopper123;3;Engelberg Groceries is convenient but can be crowded at times.
+453;13;cafe_addict;5;Hinterrhein Café has the best cappuccino I’ve ever had!
+454;14;bread_fan;4;Saxon Bakery offers delicious bread but it closes quite early.
+455;15;style_seeker;4;Nice clothing selection at Bürglen Fashion. Found some great pieces.
+456;16;gift_giver;4;Sta. Maria Val Müstair Gifts has a wide variety of unique gifts.
+457;17;diy_fanatic;3;Frasco Hardware has good tools but limited variety.
+458;18;tech_savvy;4;Sudern Electronics offers great products but customer service could improve.
+459;19;floral_fan;5;Schongau Flowers has stunning arrangements and helpful staff.
+460;20;toy_enthusiast;3;Gadmen Toys has great options for kids but the store is a bit cluttered.

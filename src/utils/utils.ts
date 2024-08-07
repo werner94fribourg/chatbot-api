@@ -1,14 +1,24 @@
 import axios from 'axios';
-import { BUSINESSES_DATA_FILE, GEOAPI_REVERSE_URL } from './globals';
+import {
+  AZURE_BASE_MODEL,
+  BUSINESSES_DATA_FILE,
+  GEOAPI_REVERSE_URL,
+  AZURE,
+} from './globals';
 import {
   ChatCompletionMessageParam,
   ChatCompletionMessage,
   ChatCompletionMessageToolCall,
+  ChatCompletionTool,
 } from 'openai/resources';
+import { promisify } from 'util';
+import { readFile } from 'fs';
 
 const {
   env: { GEOAPIFY_API_KEY },
 } = process;
+
+let BUSINESSES: Business[] | null = null;
 
 export interface Address {
   street?: string;
@@ -26,17 +36,30 @@ export interface Handler {
   func: Function;
 }
 
+export interface BusinessAddress {
+  street: string;
+  postalCode: string;
+  city: string;
+  state: string;
+  country: string;
+  coordinates: [number, number];
+}
+
 export interface Business {
+  id: number;
   name: string;
   type: string;
-  address: {
-    street: string;
-    postalCode: string;
-    state: string;
-    country: string;
-  };
+  address: BusinessAddress;
   openingHour: string;
   closingHour: string;
+}
+
+export interface Review {
+  id: number;
+  businessId: number;
+  username: string;
+  rating: number;
+  comment: string;
 }
 
 const generateRandomCoordinates = (): { lat: number; lng: number } => {
@@ -86,6 +109,32 @@ export const generateAddress = async (): Promise<string> => {
   return JSON.stringify(address);
 };
 
+export const transformToString = (item: any): string => {
+  if (typeof item === 'string') return item;
+  if (typeof item === 'number' || typeof item === 'boolean') return `${item}`;
+  if (Array.isArray(item))
+    return item.map(el => transformToString(el)).join(', ');
+
+  if (typeof item === 'object')
+    return Object.entries(item).reduce((acc: string, current) => {
+      const [key, value] = current;
+      const str = `${key}: ${transformToString(value)}`;
+      if (acc === '') return str;
+      return `${acc}, ${str}`;
+    }, '');
+
+  return '';
+};
+
+export const getAllBusinesses = async () => {
+  if (BUSINESSES === null)
+    BUSINESSES = JSON.parse(
+      (await promisify(readFile)(BUSINESSES_DATA_FILE, 'utf8')).toString(),
+    ) as Business[];
+
+  return BUSINESSES.map(business => transformToString(business)).join('\n');
+};
+
 export const handleInvokeFunction = async (
   context: ChatCompletionMessageParam[],
   message: ChatCompletionMessage,
@@ -95,28 +144,27 @@ export const handleInvokeFunction = async (
 
   newContext.push(message);
 
-  await Promise.all(
-    message.tool_calls!.map(async tool_call => {
-      let toolResponse = null;
+  if (!message.tool_calls) return newContext;
 
-      for (let i = 0; i < handlers.length; i++) {
-        const { name, func } = handlers[i];
-        toolResponse = handleInvocations(tool_call, name, func);
-        if (toolResponse !== null) break;
-      }
+  for (const tool_call of message.tool_calls) {
+    let toolResponse = null;
 
-      if (toolResponse === null) return;
+    for (let i = 0; i < handlers.length; i++) {
+      const { name, func } = handlers[i];
+      toolResponse = handleInvocations(tool_call, name, func);
+      if (toolResponse !== null) break;
+    }
 
-      const [id, response] = toolResponse;
+    if (toolResponse === null) continue;
 
-      newContext.push({
-        role: 'tool',
-        content:
-          response instanceof Array ? response.join(', ') : await response,
-        tool_call_id: id,
-      });
-    }),
-  );
+    const [id, response] = toolResponse;
+
+    newContext.push({
+      role: 'tool',
+      content: response instanceof Array ? response.join(', ') : await response,
+      tool_call_id: id,
+    });
+  }
 
   return newContext;
 };
@@ -137,4 +185,43 @@ const handleInvocations = (
   const args = JSON.parse(toolFunction.arguments);
 
   return [id, handler(args)];
+};
+
+export const generatorChat: (
+  context: ChatCompletionMessageParam[],
+  handlers?: Handler[],
+  tools?: ChatCompletionTool[],
+) => Promise<string> = async (context, handlers = [], tools = []) => {
+  if (tools.length === 0) {
+    const {
+      choices: [
+        {
+          message: { content },
+        },
+      ],
+    } = await AZURE.chat.completions.create({
+      model: AZURE_BASE_MODEL,
+      messages: context,
+    });
+
+    return content !== null ? content : '';
+  }
+  const {
+    choices: [{ message, finish_reason }],
+  } = await AZURE.chat.completions.create({
+    model: AZURE_BASE_MODEL,
+    messages: context,
+    tools,
+    tool_choice: 'auto',
+  });
+
+  const willInvokeFunction = finish_reason === 'tool_calls';
+
+  if (!willInvokeFunction) return message.content as string;
+
+  const newContext = await handleInvokeFunction(context, message, handlers);
+
+  if (newContext) return generatorChat(newContext, handlers, tools);
+
+  throw new Error('Error while generating the businesses');
 };

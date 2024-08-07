@@ -1,0 +1,101 @@
+id;name;type;street;postalCode;city;state;country;latitude;longitude;openingHour;closingHour
+1;Sunrise Cafe;Cafe;Route de Meyrin 28c;1211;Geneva;Geneva;Switzerland;46.2160126;6.125234086873063;08:00;18:00
+2;Mountain Gear;Sports Equipment;Route Des Montagnes 2.6;1273;Arzier-Le Muids;Vaud;Switzerland;46.504104;6.152856;09:00;17:00
+3;Greifensee Flowers;Florist;Schützenweg 2;8606;Greifensee;Zurich;Switzerland;47.359337;8.685699;10:00;18:00
+4;Alpine Books;Bookstore;Via Davos Pali 10.1;7185;Platta;Graubunden;Switzerland;46.645958;8.844958;08:30;16:30
+5;Le Paquier Boutique;Clothing;Les Planches 6;2056;Val-de-Ruz;Neuchatel;Switzerland;47.086511;6.964622;09:30;17:30
+6;Beinwil Bakery;Bakery;Ober Chratten 60;4229;Beinwil (SO);Solothurn;Switzerland;47.34558;7.605554;08:00;18:00
+7;Surrein Groceries;Supermarket;Via Valtenigia 4;7173;Surrein;Graubunden;Switzerland;46.677405;8.972045;09:00;18:00
+8;Schmitten Delicatessen;Delicatessen;Raglaunawäg 33;7493;Schmitten;Graubunden;Switzerland;46.702797;9.673329;09:30;17:00
+9;Vermol's Electronics;Electronics;Tobelweg 6.2;8886;Mädris-Vermol;Saint Gallen;Switzerland;47.036869;9.391379;08:00;16:00
+10;Meiringen Art Gallery;Art Gallery;Wirzen 556;3860;Unterbach;Bern;Switzerland;46.727531;8.094582;10:00;17:00
+11;Habkern Books;Bookstore;Ällgäuli 895;3804;Habkern;Bern;Switzerland;46.775147;7.900625;08:00 AM;04:00 PM
+12;Engelberg Groceries;Grocery Store;Ristis 1;6390;Engelberg;Obwalden;Switzerland;46.83241;8.407776;09:00 AM;06:00 PM
+13;Hinterrhein Café;Café;Rheinquellstrasse 9.1;7438;Hinterrhein;Graubunden;Switzerland;46.52023;9.174977;08:30 AM;05:30 PM
+14;Saxon Bakery;Bakery;Chemin De La Mouillire 3;1907;Saxon;Valais;Switzerland;46.142496;7.185842;08:00 AM;02:00 PM
+15;Bürglen Fashion;Clothing Store;Aussere Bittleten 1.1;6463;Bürglen;Uri;Switzerland;46.882125;8.656187;09:00 AM;05:00 PM
+16;Sta. Maria Val Müstair Gifts;Gift Shop;Via Alp Sprella 3;7536;Sta. Maria Val Müstair;Graubunden;Switzerland;46.591919;10.300121;10:00 AM;06:00 PM
+17;Frasco Hardware;Hardware Store;Vald 3;6636;Frasco;Ticino;Switzerland;46.371025;8.79948;08:30 AM;04:00 PM
+18;Sudern Electronics;Electronics Store;Vorder Naters 144f;3618;Sudern;Bern;Switzerland;46.83542;7.767051;09:00 AM;06:00 PM
+19;Schongau Flowers;Florist;Mülihalde 8;6288;Schongau;Lucerne;Switzerland;47.2664744;8.266108702286989;08:30 AM;05:30 PM
+20;Gadmen Toys;Toy Store;Mettlenberg 247;3863;Innertkirchen;Bern;Switzerland;46.747816;8.374036;08:00 AM;04:00 PM
+21;Le Noirmont Bakery;Bakery;Sur Le Gez 3044;2340;Le Noirmont;Jura;Switzerland;47.200138;6.926015;09:00;17:00
+22;Cumpadials Grocery;Grocery;Via Bostg 12;7176;Cumpadials;Graubunden;Switzerland;46.704392;8.91737;08:00;18:00
+23;Belpberg Cafe;Cafe;Hofstetten 44f;3124;Belp;Bern;Switzerland;46.854827;7.522176;10:00;16:00
+24;Icogne Market;Market;Chemin Er De Lens 35;1977;Icogne;Valais;Switzerland;46.347507;7.470826;09:00;17:00
+25;Unterseen Pharmacy;Pharmacy;Stollen 20;3800;Unterseen;Bern;Switzerland;46.71173;7.841418;08:00;18:00
+26;Zeihen Hardware;Hardware Store;Bahnhofstrasse 37;5079;Zeihen;Aargau;Switzerland;47.480034;8.091674;09:00;17:00
+27;Ried-Brig Florist;Florist;Neue Dorfstrasse 3;3911;Ried-Brig;Valais;Switzerland;46.31368;8.014141;08:00;18:00
+28;Sachseln Bookstore;Bookstore;Stepfen 1.1;6072;Sachseln;Obwalden;Switzerland;46.803325;8.267454;10:00;16:00
+29;Furna Art Gallery;Art Gallery;Quaggisweg 11.1;7232;Furna;Graubunden;Switzerland;46.901832;9.682417;09:00;17:00
+30;Fleurier Boutique;Boutique;La Mordettaz 1.5;2114;Val-de-Travers;Neuchatel;Switzerland;46.884302;6.578773;10:00;16:00
+31;Golden Bistro;Restaurant;Route De Prélet 15;1985;Villa;Valais;Switzerland;46.109247;7.521437;08:00;17:00
+32;Zurzach Spa;Wellness;Quellenstrasse 80.1;5330;Bad Zurzach;Aargau;Switzerland;47.593259;8.282051;09:00;18:00
+33;Mountain Inn;Hotel;Inner Urden 76;7064;Tschiertschen;Graubunden;Switzerland;46.780076;9.613506;10:00;18:00
+34;Steg Sports;Sports Equipment;Trockener Steg 20;3920;Zermatt;Valais;Switzerland;45.970263;7.72175;08:00;16:00
+35;Kastensattel Cafe;Cafe;Bützel-Kastensattel 1.1;9464;Lienz;Saint Gallen;Switzerland;47.284439;9.49609;09:00;17:00
+36;Avoin Bakery;Bakery;Route d'Avoin 72;3961;Grimentz;Valais;Switzerland;46.174211;7.545899;08:00;15:00
+37;Rochette Groceries;Grocery Store;Sous La Rochette 10b;2947;Charmoille;Jura;Switzerland;47.423139;7.224859;08:00;18:00
+38;Ramboden Hardware;Hardware Store;Le Grand Ramboden 102h;2829;Vermes;Jura;Switzerland;47.306903;7.487798;09:00;17:00
+39;Selden Flowers;Florist;Selden 2a;3718;Kandersteg;Bern;Switzerland;46.452272;7.710165;08:00;16:00
+40;Rothaus Liquor;Liquor Store;Rothausweg 7;8280;Kreuzlingen;Thurgau;Switzerland;47.6397445;9.183435911186974;10:00;18:00
+41;Optical Oasis;Optician;Biffig 4.1;6247;Schötz;Lucerne;Switzerland;47.172266;7.997273;8:00 AM;6:00 PM
+42;Herbal Haven;Herbalist;Alpe Ruscada 3;6658;Comologno;Ticino;Switzerland;46.179606;8.580075;9:00 AM;4:00 PM
+43;Mountain Motors;Auto Shop;Oberaletsch 25;3914;Belalp;Valais;Switzerland;46.39103;7.997765;10:00 AM;5:00 PM
+44;Hearty Hut;Restaurant;Route d'Epeisses 89;1237;Avully;Geneva;Switzerland;46.169578;5.983505;8:30 AM;5:30 PM
+45;Wilderness Wonders;Outdoor Equipment;Chemin de Reuvroz 9;1884;Villars-sur-Ollon;Vaud;Switzerland;46.2946783;7.05486125;9:30 AM;5:00 PM
+46;Oasis Cafe;Cafe;Schlösslibüchel 1354.1;8718;Schänis;Saint Gallen;Switzerland;47.14846;9.080265;8:00 AM;6:00 PM
+47;Rush Retail;Retail Store;La Chaille 1;2023;Gorgier;Neuchatel;Switzerland;46.932008;6.753641;8:00 AM;6:00 PM
+48;Majestic Motors;Auto Shop;Hinterdorfstrasse 6;3999;Obergoms;Wallis;Switzerland;46.5331734;8.3527648;8:00 AM;5:00 PM
+49;Wise Wonders;Bookstore;Ettriastrasse 7;3989;Niederwald;Valais;Switzerland;46.43382;8.201889;9:00 AM;5:00 PM
+50;Water World Wonders;Waterpark;Tramstrasse 33;9444;Diepoldsau;Saint Gallen;Switzerland;47.389474;9.649031;10:00 AM;6:00 PM
+51;Beinwil Shop;Retail;Seestrasse 502.3;5712;Beinwil am See;Aargau;Switzerland;47.263834;8.21344;08:00 AM;06:00 PM
+52;Paradies Mart;Grocery;Paradies 181;7551;Ftan;Graubunden;Switzerland;46.785619;10.234763;09:00 AM;05:00 PM
+53;Guber Electronics;Electronics;Guber 9;6055;Alpnach;Obwalden;Switzerland;46.925684;8.233497;08:30 AM;04:30 PM
+54;Lignieres Bakery;Bakery;Chemin De Vorgneux 8;2523;Lignières;Neuchatel;Switzerland;47.091766;7.050426;08:00 AM;06:00 PM
+55;Mervelier Cafe;Cafe;Chemin Du Transformateur 1g;2827;Mervelier;Jura;Switzerland;47.342882;7.491901;10:00 AM;05:00 PM
+56;Eichmatt Pharmacy;Pharmacy;Eichmatt 2.3;6289;Hämikon;Lucerne;Switzerland;47.248652;8.264782;08:00 AM;06:00 PM
+57;Hinwil Salon;Salon;Girenbadstrasse 25.1;8340;Hinwil;Zurich;Switzerland;47.312119;8.859388;09:00 AM;06:00 PM
+58;Evolene Boutique;Fashion;Route De Sion 143;1983;Evolène;Valais;Switzerland;46.141723;7.465656;10:00 AM;06:00 PM
+59;Fusio Crafts;Crafts;Val Sambuco 972b.99;6696;Fusio;Ticino;Switzerland;46.479367;8.611865;09:30 AM;05:30 PM
+60;Unterschachen Hardware;Hardware;Unter Äbnet 1.2;6465;Unterschächen;Uri;Switzerland;46.869732;8.764563;08:00 AM;06:00 PM
+61;En-bas-les-Barres Store;/;En-bas-les-Barres 1a.1;2316;Les Ponts-de-Martel;Neuchatel;Switzerland;46.997278;6.745305;08:00 AM;06:00 PM
+62;Chemin En Verchère Shop;e;Chemin En Verchère 2.2;1417;Essertines-sur-Yverdon;Vaud;Switzerland;46.713317;6.642147;09:00 AM;05:00 PM
+63;Mätteli Retail;n;Mätteli 2.7;6493;Hospental;Uri;Switzerland;46.595035;8.563852;10:00 AM;04:00 PM
+64;Chemin Des Foulis Market;h;Chemin Des Foulis 24;1222;Collonge-Bellerive;Geneva;Switzerland;46.253791;6.22726;08:30 AM;05:30 PM
+65;Kapellstrasse Boutique;e;Kapellstrasse 34.2;8847;Egg;Schwyz;Switzerland;47.158179;8.778718;09:00 AM;06:00 PM
+66;Flüelistrasse Supplies;/;Flüelistrasse 19.2;8226;Schleitheim;Schaffhausen;Switzerland;47.750282;8.460803;10:00 AM;05:00 PM
+67;Dr. Rudolf Probstweg Stores;e;Dr. Rudolf Probstweg 9;4513;Langendorf;Solothurn;Switzerland;47.2236772;7.5105325838235215;08:30 AM;04:30 PM
+68;Seeboden Mart;e;Seeboden 2;8915;Hausen am Albis;Zurich;Switzerland;47.260575;8.508116;09:00 AM;06:00 PM
+69;Au Shop;e;Au 1322;9473;Gams;Saint Gallen;Switzerland;47.196331;9.404093;08:00 AM;06:00 PM
+70;Steinenbühl Goods;/;Steinenbühl 215;4417;Ziefen;Basel-Country;Switzerland;47.435535;7.713993;10:00 AM;04:30 PM
+71;Wydenstrasse Cafe;Cafe;Wydenstrasse 36.6;5242;Birr;Aargau;Switzerland;47.440026;8.215467;08:00;18:00
+72;Surettaweg Books;Bookstore;Surettaweg 5;7434;Sufers;Graubunden;Switzerland;46.558496;9.394588;09:00;17:00
+73;Glärnischstrasse Flowers;Florist;Glärnischstrasse 26;8820;Wädenswil;Zurich;Switzerland;47.231025;8.667378;08:30;16:30
+74;Brünigstrasse Bakery;Bakery;Brünigstrasse 280;6072;Ewil;Obwalden;Switzerland;46.8537451;8.213348;08:00;15:00
+75;Blüemelenstrasse Pharmacy;Pharmacy;Blüemelenstrasse 1;8585;Klarsreuti;Thurgau;Switzerland;47.588997;9.223636;09:00;18:00
+76;Via Giachentrina Market;Market;Via Giachentrina 21;7173;Surrein;Graubunden;Switzerland;46.720269;8.943172;10:00;17:00
+77;Les Tservettes Jewelry;Jewelry Shop;Les Tservettes 139;1666;Grandvillard;Fribourg;Switzerland;46.540936;7.121793;09:30;17:30
+78;Via Camplan Toys;Toy Store;Via Camplan 5;7606;Promontogno;Graubunden;Switzerland;46.341494;9.570351;08:00;16:00
+79;Via Crap Masegn Electronics;Electronics;Via Crap Masegn 4;7032;Ladir;Graubunden;Switzerland;46.842101;9.180098;09:00;15:00
+80;Gässli Restaurant;Restaurant;Gässli 12b;3534;Schüpbach;Bern;Switzerland;46.919704;7.727271;10:00;18:00
+81;Wittenfärren Cafe;Cafe;Wittenfärren 1.4;6196;Marbach;Lucerne;Switzerland;46.834102;7.917458;08:00 AM;06:00 PM
+82;Kalten Food Market;Food Market;Kaltenbrunnenweg 53a;3775;Lenk;Bern;Switzerland;46.4619908;7.475237746387419;09:00 AM;05:00 PM
+83;Hub Technology Store;Technology;Hub 100.1;9463;Oberriet;Saint Gallen;Switzerland;47.338078;9.530007;08:30 AM;05:30 PM
+84;Läger Bookstore;Bookstore;Läger 543;3824;Lauterbrunnen;Bern;Switzerland;46.514042;7.897419;09:00 AM;06:00 PM
+85;Schwarzenbach Boutique;Boutique;Schwarzenbach 4.22;6436;Bisisthal;Schwyz;Switzerland;46.938453;8.850638;08:00 AM;04:00 PM
+86;Leissigbärgli Spa;Spa;Leissigbärgli 514;3706;Leissigen;Bern;Switzerland;46.63871;7.798473;10:00 AM;05:00 PM
+87;Grimselstrasse Bakery;Bakery;Grimselstrasse 7;3999;Oberwald;Valais;Switzerland;46.558693;8.341751;08:00 AM;06:00 PM
+88;Im Gspon Restaurant;Restaurant;Im Gspon 1;8874;Glarus Nord;Glarus;Switzerland;47.07197;9.190499;08:00 AM;06:00 PM
+89;Via Malpensada Groceries;Groceries;Via Malpensada 63;6742;Pollegio;Ticino;Switzerland;46.365146;8.959091;08:30 AM;05:30 PM
+90;Riedji Pharmacy;Pharmacy;Riedji 6;3924;St. Niklaus;Valais;Switzerland;46.173235;7.7877;09:00 AM;06:00 PM
+91;Business One;o;Niedermattgraben 179;3543;Schüpbach;Bern;Switzerland;46.93716605;7.713178156126011;08:00 AM;05:00 PM
+92;Business Two;n;Gattikonerstrasse 47;8800;Thalwil;Zurich;Switzerland;47.284424650000005;8.555699699999998;09:00 AM;06:00 PM
+93;Business Three;m;C'assinascia 1;6780;Airolo;Ticino;Switzerland;46.552211;8.632953;08:30 AM;05:30 PM
+94;Business Four;r;Balm 2;6436;Stalden;Schwyz;Switzerland;46.93783355;8.824217325672551;10:00 AM;04:00 PM
+95;Business Five;e;Stockjistrasse 47;3903;Naters;Valais;Switzerland;46.325338;7.978632;09:00 AM;05:00 PM
+96;Business Six;e;Mittlerrotbach 1.1;6162;Finsterwald b. Entlebuch;Lucerne;Switzerland;46.906349;8.111198;08:00 AM;04:30 PM
+97;Business Seven;e;Chemin Du Chalet Vieux 1;1865;Ormont-Dessus;Vaud;Switzerland;46.369018;7.207548;09:00 AM;05:30 PM
+98;Business Eight;r;Route de Javerne 14;1880;Bex;Vaud;Switzerland;46.2453946;7.057312899999996;09:30 AM;05:00 PM
+99;Business Nine;o;Via Al Generoso 29;6821;Val Mara;Ticino;Switzerland;45.933052;8.993921;08:00 AM;05:00 PM
+100;Business Ten;o;Kistler Alp 1.8;8864;Reichenburg;Schwyz;Switzerland;47.143973;8.962339;08:30 AM;05:30 PM
