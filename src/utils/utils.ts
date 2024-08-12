@@ -4,6 +4,11 @@ import {
   BUSINESSES_DATA_FILE,
   GEOAPI_REVERSE_URL,
   AZURE,
+  BUSINESS_TYPES,
+  PINECONE,
+  REVIEWS_DATA_FILE,
+  OPENAI,
+  OPENAI_MODEL,
 } from './globals';
 import {
   ChatCompletionMessageParam,
@@ -12,7 +17,9 @@ import {
   ChatCompletionTool,
 } from 'openai/resources';
 import { promisify } from 'util';
-import { readFile } from 'fs';
+import { createReadStream, readFile } from 'fs';
+import { AzureOpenAI } from 'openai';
+import { Document } from 'langchain/document';
 
 const {
   env: { GEOAPIFY_API_KEY },
@@ -199,8 +206,8 @@ export const generatorChat: (
           message: { content },
         },
       ],
-    } = await AZURE.chat.completions.create({
-      model: AZURE_BASE_MODEL,
+    } = await OPENAI.chat.completions.create({
+      model: OPENAI_MODEL,
       messages: context,
     });
 
@@ -208,8 +215,8 @@ export const generatorChat: (
   }
   const {
     choices: [{ message, finish_reason }],
-  } = await AZURE.chat.completions.create({
-    model: AZURE_BASE_MODEL,
+  } = await OPENAI.chat.completions.create({
+    model: OPENAI_MODEL,
     messages: context,
     tools,
     tool_choice: 'auto',
@@ -224,4 +231,80 @@ export const generatorChat: (
   if (newContext) return generatorChat(newContext, handlers, tools);
 
   throw new Error('Error while generating the businesses');
+};
+
+export const getTrainingFile = async (path: string, client: AzureOpenAI) => {
+  const { id } = await client.files.create({
+    file: createReadStream(path),
+    purpose: 'fine-tune',
+  });
+
+  return id;
+};
+
+export const getCategoryType = (cat: string) => {
+  for (const [type, categories] of Object.entries(BUSINESS_TYPES)) {
+    if (categories.indexOf(cat) !== -1) return type.toLowerCase().split('and');
+  }
+  return [];
+};
+
+export const createIndex = (name: string) =>
+  PINECONE.createIndex({
+    name,
+    dimension: 1536,
+    metric: 'cosine',
+    spec: {
+      serverless: {
+        cloud: 'aws',
+        region: 'us-east-1',
+      },
+    },
+  });
+
+export type ObjectHandler = () => Promise<Document[]>;
+
+export const businessHandler = async () => {
+  const businesses = (await JSON.parse(
+    (await promisify(readFile)(BUSINESSES_DATA_FILE, 'utf8')).toString(),
+  )) as Business[];
+
+  return businesses.map(business => {
+    const {
+      id,
+      type,
+      address: {
+        coordinates: [lat, lng],
+        city,
+      },
+    } = business;
+
+    return new Document({
+      pageContent: transformToString({
+        ...business,
+        categories: getCategoryType(type),
+      }),
+      metadata: {
+        id,
+        categories: [type, ...getCategoryType(type)],
+        city,
+        coordinates: [lat.toString(), lng.toString()],
+      },
+    });
+  });
+};
+
+export const reviewHandler = async () => {
+  const reviews = (await JSON.parse(
+    (await promisify(readFile)(REVIEWS_DATA_FILE, 'utf8')).toString(),
+  )) as Review[];
+
+  return reviews.map(review => {
+    const { id, businessId } = review;
+
+    return new Document({
+      pageContent: transformToString(review),
+      metadata: { id, businessId },
+    });
+  });
 };

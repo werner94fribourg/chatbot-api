@@ -1,9 +1,9 @@
 import { config } from 'dotenv';
 import {
   AZURE_BASE_MODEL,
+  AZURE,
   SEARCH_ENDPOINT,
   SEARCH_INDEX_NAME,
-  AZURE,
 } from '../utils/globals';
 import Resources, {
   ChatCompletion,
@@ -16,7 +16,7 @@ const CONTEXT: ChatCompletionMessageParam[] = [
   {
     role: 'system',
     content:
-      'You are a joyful assistant called Bizbot that help clients in research existing businesses.',
+      'You are a joyful assistant called Bizbot that help clients in researching businesses and reviews.',
   },
 ];
 
@@ -25,6 +25,8 @@ interface DataSource {
   parameters: {
     endpoint: string;
     index_name: string;
+    strictness: number;
+    top_n_documents: number;
     authentication: {
       type: string;
       key: string;
@@ -49,6 +51,8 @@ const DATA_SOURCE: DataSource[] = [
     parameters: {
       endpoint: SEARCH_ENDPOINT,
       index_name: SEARCH_INDEX_NAME,
+      strictness: 2,
+      top_n_documents: 20,
       authentication: {
         type: 'api_key',
         key: process.env.SEARCH_API_KEY!,

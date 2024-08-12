@@ -11,6 +11,11 @@
   "description": "",
   "devDependencies": {
     "@swc/core": "^1.7.6",
+    "@types/koa": "^2.15.0",
+    "@types/koa-bodyparser": "^4.3.12",
+    "@types/koa-cors": "^0.0.6",
+    "@types/koa-json": "^2.0.23",
+    "@types/koa-router": "^7.4.8",
     "@types/node": "^22.1.0",
     "prettier": "^3.3.3",
     "swc": "^1.0.11",
@@ -21,8 +26,17 @@
     "@azure/identity": "^4.4.1",
     "@azure/openai": "^2.0.0-beta.1",
     "@azure/search-documents": "^12.1.0",
+    "@langchain/community": "^0.2.25",
+    "@langchain/pinecone": "^0.0.8",
+    "@pinecone-database/pinecone": "^3.0.0",
     "axios": "^1.7.3",
     "dotenv": "^16.4.5",
+    "koa": "^2.15.3",
+    "koa-bodyparser": "^4.4.1",
+    "koa-cors": "^0.0.16",
+    "koa-json": "^2.0.2",
+    "koa-router": "^12.0.1",
+    "langchain": "^0.2.13",
     "openai": "^4.54.0"
   }
 }
