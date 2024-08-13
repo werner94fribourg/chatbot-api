@@ -107,7 +107,3 @@ app
 app.listen(port, () => {
   console.log(`Server listening on port ${port}.`);
 });
-
-//createStore(RECOMMENDATIONS_PINECONE_INDEX, businessHandler);
-
-//createStore(RECOMMENDATIONS_PINECONE_INDEX, reviewHandler);

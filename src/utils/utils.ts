@@ -1,9 +1,7 @@
 import axios from 'axios';
 import {
-  AZURE_BASE_MODEL,
   BUSINESSES_DATA_FILE,
   GEOAPI_REVERSE_URL,
-  AZURE,
   BUSINESS_TYPES,
   PINECONE,
   REVIEWS_DATA_FILE,
