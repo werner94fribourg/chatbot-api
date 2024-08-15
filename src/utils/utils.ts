@@ -7,6 +7,8 @@ import {
   REVIEWS_DATA_FILE,
   OPENAI,
   OPENAI_MODEL,
+  AZURE,
+  AZURE_BASE_MODEL,
 } from './globals';
 import {
   ChatCompletionMessageParam,
@@ -204,8 +206,8 @@ export const generatorChat: (
           message: { content },
         },
       ],
-    } = await OPENAI.chat.completions.create({
-      model: OPENAI_MODEL,
+    } = await AZURE.chat.completions.create({
+      model: AZURE_BASE_MODEL,
       messages: context,
     });
 
@@ -213,8 +215,8 @@ export const generatorChat: (
   }
   const {
     choices: [{ message, finish_reason }],
-  } = await OPENAI.chat.completions.create({
-    model: OPENAI_MODEL,
+  } = await AZURE.chat.completions.create({
+    model: AZURE_BASE_MODEL,
     messages: context,
     tools,
     tool_choice: 'auto',

@@ -1498,5 +1498,155 @@
     },
     "openingHour": "08:30 AM",
     "closingHour": "05:30 PM"
+  },
+  {
+    "id": 1,
+    "name": "FreshMart",
+    "type": "w",
+    "address": {
+      "street": "Rothuserli 171a",
+      "postalCode": "1716",
+      "city": "Bad-Schwarzsee",
+      "state": "Fribourg",
+      "country": "Switzerland",
+      "coordinates": [46.667695, 7.273091]
+    },
+    "openingHour": "09:00 AM",
+    "closingHour": "05:00 PM"
+  },
+  {
+    "id": 2,
+    "name": "Nature's Best",
+    "type": "n",
+    "address": {
+      "street": "Staflerbärgweg 4.1",
+      "postalCode": "7276",
+      "city": "Frauenkirch",
+      "state": "Graubunden",
+      "country": "Switzerland",
+      "coordinates": [46.777586, 9.76458]
+    },
+    "openingHour": "08:30 AM",
+    "closingHour": "04:30 PM"
+  },
+  {
+    "id": 3,
+    "name": "HealthHub",
+    "type": "h",
+    "address": {
+      "street": "Sommerig 188.2",
+      "postalCode": "8722",
+      "city": "Kaltbrunn",
+      "state": "Saint Gallen",
+      "country": "Switzerland",
+      "coordinates": [47.210531, 9.053919]
+    },
+    "openingHour": "10:00 AM",
+    "closingHour": "06:00 PM"
+  },
+  {
+    "id": 4,
+    "name": "Restaurant Delights",
+    "type": "r",
+    "address": {
+      "street": "Burinaux 1.4",
+      "postalCode": "1512",
+      "city": "Chavannes-sur-Moudon",
+      "state": "Vaud",
+      "country": "Switzerland",
+      "coordinates": [46.666094, 6.834437]
+    },
+    "openingHour": "11:00 AM",
+    "closingHour": "05:00 PM"
+  },
+  {
+    "id": 5,
+    "name": "Mighty Motors",
+    "type": "m",
+    "address": {
+      "street": "Plain-Tertre 176",
+      "postalCode": "2904",
+      "city": "Bressaucourt",
+      "state": "Jura",
+      "country": "Switzerland",
+      "coordinates": [47.393813, 7.031109]
+    },
+    "openingHour": "08:00 AM",
+    "closingHour": "06:00 PM"
+  },
+  {
+    "id": 6,
+    "name": "EnviroCare",
+    "type": "e",
+    "address": {
+      "street": "Beysegg 1.1",
+      "postalCode": "3555",
+      "city": "Trubschachen",
+      "state": "Bern",
+      "country": "Switzerland",
+      "coordinates": [46.890844, 7.876998]
+    },
+    "openingHour": "08:30 AM",
+    "closingHour": "04:00 PM"
+  },
+  {
+    "id": 7,
+    "name": "Nexus Networks",
+    "type": "n",
+    "address": {
+      "street": "Steinfeld 804.1",
+      "postalCode": "9548",
+      "city": "Matzingen",
+      "state": "Thurgau",
+      "country": "Switzerland",
+      "coordinates": [47.527282, 8.939523]
+    },
+    "openingHour": "09:00 AM",
+    "closingHour": "06:00 PM"
+  },
+  {
+    "id": 8,
+    "name": "EcoEnergy",
+    "type": "e",
+    "address": {
+      "street": "Baschloch 692",
+      "postalCode": "9043",
+      "city": "Trogen",
+      "state": "Appenzell Ausserrhoden",
+      "country": "Switzerland",
+      "coordinates": [47.40194, 9.49717]
+    },
+    "openingHour": "10:00 AM",
+    "closingHour": "04:00 PM"
+  },
+  {
+    "id": 9,
+    "name": "Optimal Solutions",
+    "type": "/",
+    "address": {
+      "street": "Orgevaux 1.1",
+      "postalCode": "1884",
+      "city": "Villars-sur-Ollon",
+      "state": "Vaud",
+      "country": "Switzerland",
+      "coordinates": [46.313869, 7.146988]
+    },
+    "openingHour": "08:30 AM",
+    "closingHour": "05:00 PM"
+  },
+  {
+    "id": 10,
+    "name": "Organic Oasis",
+    "type": "o",
+    "address": {
+      "street": "Reckiwil 271a",
+      "postalCode": "3673",
+      "city": "Linden",
+      "state": "Bern",
+      "country": "Switzerland",
+      "coordinates": [46.849331, 7.667539]
+    },
+    "openingHour": "09:30 AM",
+    "closingHour": "04:30 PM"
   }
 ]
